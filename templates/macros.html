@@ -15,8 +15,8 @@
   {% if x.previously %}<p class="prev">Previously circulated as “<a href="{{ x.previously.url }}">{{ x.previously.title }}</a>”</p>{% endif %}
   {% if x.award %}<p class="award">{{ x.award }}</p>{% endif %}
   {% set links = [] %}
-  {% if x.pdf %}{% set _ = links.append({'label': x.pdf_label or 'PDF', 'url': x.pdf}) %}{% endif %}
-  {% if x.doi_url %}{% set _ = links.append({'label': 'Journal', 'url': x.doi_url}) %}{% endif %}
+  {# one button for the published version: hosted PDF if open access, else the journal (DOI) page #}
+  {% if x.pdf or x.doi_url %}{% set _ = links.append({'label': 'Published paper', 'url': x.pdf or x.doi_url}) %}{% endif %}
   {% for l in x.links or [] %}{% set _ = links.append(l) %}{% endfor %}
   {% if x.abstract or links %}
   <div class="pfoot">

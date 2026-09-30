@@ -234,7 +234,7 @@ publications:
     issue: 4
     year: 2021
     links:
-    - label: Journal
+    - label: Published paper
       url: https://doi.org/10.1086/705021
   - title: Is There Regional Inequality in Medical Accessibility of the Severely Injured? Application of Driving
       Time Data in South Korea
@@ -244,7 +244,7 @@ publications:
     issue: 1
     year: 2020
     links:
-    - label: Journal
+    - label: Published paper
       url: http://kiss.kstudy.com/thesis/thesis-view.asp?key=3759942
 - field: Political Science
   items:
@@ -278,7 +278,6 @@ publications:
     year: 2023
     doi_url: https://doi.org/10.1038/s41467-023-42122-8
     pdf: assets/papers/yang2023_naturecomm.pdf
-    pdf_label: PDF (open access)
     abstract: Machine learning approaches using satellite imagery are providing accessible ways to infer socioeconomic
       measures without visiting a region. However, many algorithms require integration of ground-truth data, while
       regional data are scarce or even absent in many countries. Here we present our human-machine collaborative
@@ -298,7 +297,6 @@ publications:
     year: 2022
     doi_url: https://doi.org/10.3389/fenvs.2022.969758
     pdf: assets/papers/kim2022_frontiers.pdf
-    pdf_label: PDF (open access)
     abstract: The increasing frequency and severity of water-related disasters such as floods, tornadoes, hurricanes,
       and tsunamis in low- and middle-income countries exemplify the uneven effects of global climate change. The
       vulnerability of high-risk societies to natural disasters has continued to increase. To develop an effective
@@ -352,7 +350,7 @@ publications:
     issue: 3
     year: 2018
     links:
-    - label: Journal
+    - label: Published paper
       url: https://doi.org/10.1177/1938965517744075
 - field: Computer Science Conference Proceedings
   items:
@@ -394,7 +392,7 @@ publications:
       for measuring inequality, which is the essential first step in policy and social science research on inequality
       and poverty.
     links:
-    - label: Journal
+    - label: Published paper
       url: https://doi.org/10.1609/aaai.v36i11.21464
   - title: Learning to Score Economic Development from Satellite Imagery
     coauthors: Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park, and
@@ -404,7 +402,6 @@ publications:
     year: 2020
     doi_url: https://doi.org/10.1145/3394486.3403347
     pdf: assets/papers/han2020_kdd.pdf
-    pdf_label: PDF (open access)
     abstract: Reliable and timely measurements of economic activities are fundamental for understanding economic
       development and designing government policies. However, many developing countries still lack reliable data.
       In this paper, we introduce a novel approach for measuring economic development from high-resolution satellite
