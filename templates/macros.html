@@ -1,6 +1,7 @@
 {% macro paper(x) -%}
 {#- Publications may give journal, volume, issue, pages, doi, pdf; working papers use venue/links. -#}
-{% set title_url = x.pdf or x.doi_url or (x.links[0].url if x.links and x.links[0].label != 'Data' else None) %}
+{% set pdf_url = (root ~ x.pdf) if x.pdf and not x.pdf.startswith('http') else x.pdf %}
+{% set title_url = pdf_url or x.doi_url or (x.links[0].url if x.links and x.links[0].label != 'Data' else None) %}
 <article class="paper{% if x.figure %} has-fig{% endif %}">
 <div class="ptext">
   <h4 class="ptitle">{% if title_url %}<a href="{{ title_url }}">{{ x.title }}</a>{% else %}{{ x.title }}{% endif %}</h4>
@@ -17,7 +18,7 @@
   {% if x.award %}<p class="award">{{ x.award }}</p>{% endif %}
   {% set links = [] %}
   {# one button for the published version: hosted PDF if open access, else the journal (DOI) page #}
-  {% if x.pdf or x.doi_url %}{% set _ = links.append({'label': 'Published paper', 'url': x.pdf or x.doi_url}) %}{% endif %}
+  {% if x.pdf or x.doi_url %}{% set _ = links.append({'label': 'Published paper', 'url': pdf_url or x.doi_url}) %}{% endif %}
   {% for l in x.links or [] %}{% set _ = links.append(l) %}{% endfor %}
   {% if x.abstract or links %}
   <div class="pfoot">
