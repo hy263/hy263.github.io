@@ -1,0 +1,7 @@
+<li class="paper">
+  <span class="ptitle">{{ include.p.title }}</span>{% if include.p.year %} <span class="year">({{ include.p.year }})</span>{% endif %}
+  {% if include.p.coauthors %}<div class="meta">with {{ include.p.coauthors }}</div>{% endif %}
+  {% if include.p.venue %}<div class="venue">{{ include.p.venue }}{% if include.p.note %} · {{ include.p.note }}{% endif %}</div>{% elsif include.p.note %}<div class="venue">{{ include.p.note }}</div>{% endif %}
+  {% if include.p.award %}<div class="award">{{ include.p.award }}</div>{% endif %}
+  {% if include.p.links %}<div class="links">{% for l in include.p.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}</div>{% endif %}
+</li>

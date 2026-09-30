@@ -1,0 +1,31 @@
+:root { --ink: #222; --muted: #6b6b6b; --line: #e6e6e6; --accent: #1a4d8f; --bg: #fff; color-scheme: light; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #e6e6e6; --muted: #9a9a9a; --line: #333; --accent: #8fb4ec; --bg: #161616; color-scheme: dark; }
+}
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.6 "Source Serif 4", Georgia, "Noto Serif KR", "Times New Roman", serif; }
+.wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
+header.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; padding-block: 28px 0; }
+.brand { color: var(--ink); text-decoration: none; font-weight: 600; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
+nav a:first-child { margin-left: 0; }
+nav a:hover, a:hover { color: var(--accent); }
+main { padding-block: 40px 8px; }
+h1 { font-size: 28px; font-weight: 600; margin: 0; }
+h2 { font-size: 19px; font-weight: 600; margin: 48px 0 12px; }
+h3 { font-size: 15px; font-weight: 400; font-style: italic; color: var(--muted); margin: 22px 0 6px; }
+p { margin: 0 0 12px; }
+a { color: var(--accent); text-decoration: none; }
+.position { margin: 2px 0 0; }
+.affil { margin: 0; color: var(--muted); font-size: 16px; }
+.tagline { font-style: italic; margin-top: 20px; }
+ul.papers { list-style: none; padding: 0; margin: 0; }
+li.paper { margin: 0 0 14px; }
+.ptitle { font-weight: 600; }
+.year, .meta, .venue, .award { color: var(--muted); font-size: 15.5px; }
+.venue { font-style: italic; }
+.links { font-size: 15px; }
+.links a + a::before { content: " · "; color: var(--muted); }
+.links.profile { margin-top: 16px; }
+ul.plain { padding-left: 18px; margin: 0; }
+footer { color: var(--muted); font-size: 13px; padding-block: 40px 48px; }

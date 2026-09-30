@@ -1,0 +1,162 @@
+# One entry per paper. To add a paper, copy an entry and edit it.
+# Fields: title, coauthors (optional), year (optional), venue (optional), note (optional), award (optional),
+#         links: list of {label, url}
+
+working_papers:
+  - title: "Neighbors After the Purge: Killings, Lineage, and Cooperation in Korean Villages, 1950-1972"
+    year: 2026
+    venue: SSRN Working Paper 7534558
+    links:
+      - {label: SSRN, url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7534558"}
+  - title: "Land Reform at the Parcel Level: A Spatial Reconstruction from a Korean Village, 1915-2019"
+    coauthors: Jongryong Park (Academy of Korean Studies)
+  - title: "Revisiting the fertility puzzle: A dynamic spatial equilibrium approach"
+    coauthors: Costas Arkolakis, J. H. Kwak, and J. Woo
+  - title: "Shadow of authoritarian patronage: Village leaders and elections in democratizing South Korea"
+    coauthors: J. Y. Hong and S. Park
+  - title: "Gambling for Goals"
+    coauthors: Costas Arkolakis (Yale), Spencer Y. Kwon (Brown), Dominic Russel (Harvard), and Claire Shi (Harvard)
+    links:
+      - {label: SSRN, url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5761702"}
+  - title: "Using maps to predict economic activity"
+    coauthors: Imryoung Jeong (University of Michigan)
+    links:
+      - {label: Draft, url: "https://docs.google.com/document/d/1Q_uhzpW2MypwOyRcVViZp7o3pDaifaOLEK3L-SDSQCg/edit?usp=sharing"}
+  - title: "Land reform, entrepreneurship, and economic growth in South Korea"
+    coauthors: Jongryong Park (Academy of Korean Studies)
+  - title: "Teaching machines to measure economic activities from satellite images: Challenges and solutions"
+    coauthors: Sungwon Han (KAIST), Donghyun Ahn (KAIST), Sungwon Park (KAIST), Jeasurk Yang (NUS), Susang Lee (KAIST), Jihee Kim (KAIST), Sangyoon Park (HKU), and Meeyoung Cha (KAIST & IBS)
+    links:
+      - {label: PDF, url: "https://drive.google.com/file/d/1-UBIuWIC-79R5irgJIg7XYO-YFRLLHIz/view?usp=sharing"}
+  - title: "The effect of war on local collective action: Evidence from the Korean War"
+  - title: "Did high speed trains promote local economic activities?: Evidence from the introduction of Korea Train Express"
+    coauthors: Elliot Kang (U. of Michigan) and Kanghyock Koh (Korea Univ.)
+  - title: "Village leadership and rural development in South Korea"
+    coauthors: Taejong Kim (KDI School) and Sunjin Kim (KDI)
+
+publications:
+  - field: "Economics: Korean history"
+    items:
+      - title: "Inside the Reform: Patterns of Ex-ante Disposals of farmland in Anryong-myeon, Suwon, as Seen Through the Jise Myeonggijang"
+        coauthors: Jongryong Park
+        year: 2026
+        venue: Korean Culture (forthcoming)
+        note: In Korean
+      - title: "Measuring Historical Settlement and Agricultural Structure from Topographic Maps: An Object Detection Approach for South Korea, 1918 and 1970"
+        coauthors: Izzat Hassan Bin Halim and Jeongeun Kim
+        year: 2026
+        venue: "Kyungje Sahak: Review of Economic History (forthcoming)"
+        links:
+          - {label: Working paper, url: "https://www.dropbox.com/scl/fi/8t70gwvjtwbc4kljrtvr5/Yolo_map_paper_most_recent.pdf?rlkey=hinfb18h9hbxznsjgtwtih5vw&dl=1"}
+          - {label: Data, url: "/data/"}
+      - title: "The effects of South Korean Protestantism on human capital and female empowerment, 1930-2010"
+        coauthors: Yutaro Izumi and Sangyoon Park
+        year: 2023
+        venue: Journal of Comparative Economics, 51(2)
+        links:
+          - {label: Paper, url: "https://doi.org/10.1016/j.jce.2023.01.006"}
+      - title: "Family clans and public goods: Evidence from the New Village Beautification Project in South Korea"
+        year: 2019
+        venue: Journal of Development Economics, 136
+        award: 2019 Korean Economy Academic Research Award
+        links:
+          - {label: Paper, url: "https://doi.org/10.1016/j.jdeveco.2018.09.001"}
+          - {label: Data, url: "/data/"}
+  - field: "Economics: Current Korean issues"
+    items:
+      - title: "To move or not to move? The impact of immigration influx on natives' neighborhood choices in Seoul, Korea"
+        coauthors: Joseph Han, Jinwook Hur, and Jongkwan Lee
+        year: 2022
+        venue: Journal of Economic Geography, 22(4)
+        links:
+          - {label: Paper, url: "https://doi.org/10.1093/jeg/lbab022"}
+      - title: "Social insurance in an aging population: Impacts of a government transfer program in South Korea"
+        coauthors: Kanghyock Koh
+        year: 2021
+        venue: Economic Development and Cultural Change, 69(4)
+        links:
+          - {label: Paper, url: "https://doi.org/10.1086/705021"}
+      - title: "Is there regional inequality in medical accessibility of the severely injured? Application of driving time data in South Korea"
+        coauthors: Elliot Kang, Min Gyung Kim, and Kanghyock Koh
+        year: 2020
+        venue: Journal of Market Economy, 49(1)
+        links:
+          - {label: Paper, url: "http://kiss.kstudy.com/thesis/thesis-view.asp?key=3759942"}
+  - field: Political Science
+    items:
+      - title: "In strongman we trust: The political legacy of the New Village Movement in South Korea"
+        coauthors: Jean Hong and Sunkyoung Park
+        year: 2023
+        venue: American Journal of Political Science, 67(4)
+        award: 2023 Best Article Prize in the Study of Democracy & Autocracy
+        links:
+          - {label: Paper, url: "https://onlinelibrary.wiley.com/share/author/FNKP8TUESVH9CMY9QTC5?target=10.1111/ajps.12716"}
+  - field: Multidisciplinary Sciences
+    items:
+      - title: "A human-machine collaborative approach measures economic development using satellite imagery"
+        coauthors: Donghyun Ahn, Jeasurk Yang, Sungwon Han, Sungwon Park, Susang Lee, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+        year: 2023
+        venue: Nature Communications
+        links:
+          - {label: Paper, url: "https://doi.org/10.1038/s41467-023-42122-8"}
+      - title: "Disaster assessment using computer vision and satellite imagery: Applications in detecting water-related building damages"
+        coauthors: Danu Kim, Jeongkyung Won, Eunji Lee, Kyung Ryul Park, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+        year: 2022
+        venue: Frontiers in Environmental Science
+        links:
+          - {label: Paper, url: "https://www.frontiersin.org/articles/10.3389/fenvs.2022.969758"}
+  - field: Hospitality and Tourism
+    items:
+      - title: "Effects of visual cues and social density on beverage consumption: A field experiment in a bar"
+        coauthors: Min Gyung Kim and Anna Mattila
+        year: 2022
+        venue: Cornell Hospitality Quarterly, 63(2)
+        links:
+          - {label: Paper, url: "https://journals.sagepub.com/doi/full/10.1177/1938965520985498"}
+      - title: "Persistent effects of mega-events on local economies: An application of administrative big data"
+        coauthors: Min Gyung Kim
+        year: 2021
+        venue: Asia Pacific Journal of Tourism Research, 26(12)
+        links:
+          - {label: Paper, url: "https://doi.org/10.1080/10941665.2021.1983625"}
+      - title: "The impact of customer loyalty on restaurant sanitation grades and the importance of narrative information: The case of New York Restaurant Sanitation Grading System"
+        coauthors: Min Gyung Kim and Anna Mattila
+        year: 2018
+        venue: Cornell Hospitality Quarterly, 59(3)
+        links:
+          - {label: Paper, url: "https://doi.org/10.1177/1938965517744075"}
+  - field: Computer Science Conference Proceedings
+    items:
+      - title: "Fine-Grained Socioeconomic Prediction from Satellite Images with Distributional Adjustment"
+        coauthors: Donghyun Ahn, Minhyuk Song, Seungeon Lee, Yubin Choi, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+        year: 2023
+        venue: "CIKM 2023: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management"
+        links:
+          - {label: Paper, url: "https://dl.acm.org/doi/10.1145/3583780.3615226"}
+      - title: "Learning economic indicators by aggregating multi-level geospatial information"
+        coauthors: Sungwon Park, Sungwon Han, Donghyun Ahn, Jaeyeon Kim, Jeasurk Yang, Susang Lee, Seunghoon Hong, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+        year: 2022
+        venue: "AAAI 2022: Proceedings of the AAAI Conference on Artificial Intelligence"
+        links:
+          - {label: Paper, url: "https://doi.org/10.1609/aaai.v36i11.21464"}
+      - title: "Learning to score economic development from satellite imagery"
+        coauthors: Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+        year: 2020
+        venue: "KDD 2020: Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+        links:
+          - {label: Paper, url: "https://doi.org/10.1145/3394486.3403347"}
+
+datasets:
+  - title: "1 km grid-level data, 1918 and 1970 (residential settlement and rice)"
+    description: Residential settlement and rice cultivation on a 1 km grid for South Korea, measured from historical topographic maps.
+    cite: "Yang, Hyunjoo, Izzat Hassan Bin Halim, and Jeongeun Kim (2026). Measuring Historical Settlement and Agricultural Structure from Topographic Maps: An Object Detection Approach for South Korea, 1918 and 1970."
+    links:
+      - {label: Excel, url: "https://www.dropbox.com/scl/fi/2h3i2nezw6c8rtqicfswo/historical_maps_1km_grid_data_v5.xlsx?rlkey=arl3l5y7f9pcgg9cl1n6erhkf&dl=1"}
+      - {label: GeoPackage, url: "https://www.dropbox.com/scl/fi/699o66w2pc2wkkmerbyi5/historical_maps_1km_grid_data_v5.gpkg?rlkey=oe4qnzx7e8jiw8lka4r380qcp&dl=1"}
+      - {label: Paper, url: "https://www.dropbox.com/scl/fi/8t70gwvjtwbc4kljrtvr5/Yolo_map_paper_most_recent.pdf?rlkey=hinfb18h9hbxznsjgtwtih5vw&dl=1"}
+  - title: Family clan data, 1930
+    description: "Village surname data from the supplementary survey to the 1930 National Census, published by the colonial government as Surnames of Korea (朝鮮の姓), digitized by Hyunjoo Yang."
+    cite: "Yang, Hyunjoo (2019). Family clans and public goods: Evidence from the New Village Beautification Project in South Korea. Journal of Development Economics, 136."
+    links:
+      - {label: Excel, url: "https://www.dropbox.com/scl/fi/hdt16rwr9aeli2fmfgbbs/FAMILY_CLAN_1930.xlsx?rlkey=33rnu8xjp0w5dylntf9jrnbva&dl=1"}
+      - {label: Paper, url: "https://doi.org/10.1016/j.jdeveco.2018.09.001"}
