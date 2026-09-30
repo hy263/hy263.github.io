@@ -131,14 +131,49 @@ publications:
   - title: 'Inside the Reform: Patterns of Ex-ante Disposals of farmland in Anryong-myeon, Suwon, as Seen Through
       the Jise Myeonggijang'
     coauthors: Jongryong Park
+    journal: Korean Culture (한국문화)
+    volume: '114'
+    pages: 289–318
     year: 2026
-    venue: Korean Culture (forthcoming)
     note: In Korean
+    doi_url: https://doi.org/10.22943/han.2026..114.009
+    abstract: 'We analyze the sellers, buyers, and ownership-transfer patterns of ex-ante disposals, or pre-reform
+      private land sales that occurred during the South Korean land reform of 1950. Our analysis is based on the
+      Jise Myeonggijang, or land-tax registers, compiled in Anryong-myeon, old Suwon-gun. The redistribution of
+      farmland during the South Korean land reform proceeded through three channels: the disposal of vested land
+      (formerly Japanese-owned land), the purchase and distribution of Korean landlord-owned land under the Land
+      Reform Act, and pre-reform private land sales between landlords and peasants. The ex-ante disposals accounted
+      for over half of the redistributed tenanted land, amounting to approximately 710 thousand jeongbos, and have
+      thus been treated as a major driver of the reform. Despite this magnitude, empirical analyses of the specific
+      realities of these transactions seem to remain relatively scarce. To examine this issue, we trace parcel-level
+      changes in land ownership in the Anryong area from 1943 to 1949. We find that land transactions in Anryong
+      were concentrated around 1948, when the disposal of vested land was executed and the Land Reform Act was taking
+      shape. Notably, a substantial share of pre-reform private land sales occurred within local same-surname kinship
+      groups of the Park and Yun families. Furthermore, we find that ownership transfers through ex-ante disposals
+      contributed more to the maintenance or expansion of landholdings by existing landowners than to land acquisition
+      and upward mobility by the landless poor. These findings suggest that while the ex-ante disposals partially
+      accelerated the dismantling of landlordism and the redistribution of tenanted land, they may also have constrained
+      the land-to-tillers principle and the efficient allocation of resources. Furthermore, this study suggests
+      that when analyzing the long-term impacts of the land reform on rural societies, future research should consider
+      that even if the total apparent scale of redistribution was similar, the relative proportion of ex-ante disposals
+      versus legal redistribution may have carried significantly different implications for the local economy.'
   - title: 'Measuring Historical Settlement and Agricultural Structure from Topographic Maps: An Object Detection
       Approach for South Korea, 1918 and 1970'
     coauthors: Izzat Hassan Bin Halim and Jeongeun Kim
+    journal: 'Kyungje Sahak: Review of Economic History (경제사학)'
+    volume: '50'
+    issue: 2
+    pages: 99–138
     year: 2026
-    venue: 'Kyungje Sahak: Review of Economic History (forthcoming)'
+    abstract: We construct a new grid-level historical dataset for South Korea by applying YOLO-based object detection
+      to 1:50,000-scale topographic maps from 1918 and 1970, yielding 1 km×1 km counts of residential houses, rice
+      paddies, and other annotated land-use symbols on the Korean national standard grid. The house variable captures
+      the standardized small-square symbol used for individual rural dwellings and should be interpreted as a measure
+      of dispersed rural settlement rather than total housing stock. Internal consistency checks, a cell-level temporal-persistence
+      test between 1918 and 1970, and an external cross-check against the 1930 colonial census at the township level
+      support the dataset’s use as a baseline spatial measure of rural settlement and agricultural land use. The
+      dataset is made publicly available, providing a new resource for long-run regional analysis in Korean economic
+      history.
     links:
     - label: Working paper
       url: https://www.dropbox.com/scl/fi/8t70gwvjtwbc4kljrtvr5/Yolo_map_paper_most_recent.pdf?rlkey=hinfb18h9hbxznsjgtwtih5vw&dl=1
@@ -146,121 +181,244 @@ publications:
       url: ../data/
   - title: The effects of South Korean Protestantism on human capital and female empowerment, 1930–2010
     coauthors: Yutaro Izumi and Sangyoon Park
+    journal: Journal of Comparative Economics
+    volume: '51'
+    issue: 2
+    pages: 422–438
     year: 2023
-    venue: Journal of Comparative Economics, 51(2)
-    links:
-    - label: Paper
-      url: https://doi.org/10.1016/j.jce.2023.01.006
+    doi_url: https://doi.org/10.1016/j.jce.2023.01.006
+    abstract: We examine the short- and long-run effects of historical Protestant churches on human capital and
+      female empowerment in South Korea by combining historical data on religious facilities and contemporary population
+      census and social survey data. In the short run, we find a positive and significant effect of Protestant churches
+      on women’s literacy and employment, but not on men’s. After almost a century, we find no strong relationship
+      between historical Protestant churches and women’s educational attainment or economic and political empowerment.
   - title: 'Family clans and public goods: Evidence from the New Village Beautification Project in South Korea'
+    journal: Journal of Development Economics
+    volume: '136'
+    pages: 34–50
     year: 2019
-    venue: Journal of Development Economics, 136
     award: 2019 Korean Economy Academic Research Award
+    doi_url: https://doi.org/10.1016/j.jdeveco.2018.09.001
+    abstract: Ethnic and linguistic heterogeneity are widely studied as determinants of social capital, conflict,
+      and institutional quality. In many cultures, another important dimension of heterogeneity is family clan membership.
+      I study the relationship between family clan diversity in South Korean villages and the voluntary production
+      of public goods and contributions of private resources for village projects. Under the 1970–1971 New Village
+      Beautification Project, the government distributed resources to each village for the production of village
+      public goods. Subsequently, the government systematically evaluated how well these resources were applied.
+      I combine these data with information on village family clan structures collected by the Japanese Colonial
+      Government, as well as records of land donations for village projects between 1970 and 1980. I find an inverted-U-shaped
+      effect of group heterogeneity on the improvement of public goods.
     links:
-    - label: Paper
-      url: https://doi.org/10.1016/j.jdeveco.2018.09.001
     - label: Data
       url: ../data/
 - field: 'Economics: Current Korean issues'
   items:
-  - title: To move or not to move? The impact of immigration influx on natives' neighborhood choices in Seoul, Korea
+  - title: To move or not to move? Immigration and natives’ neighborhood choices in Seoul, Korea
     coauthors: Joseph Han, Jinwook Hur, and Jongkwan Lee
+    journal: Journal of Economic Geography
+    volume: '22'
+    issue: 4
+    pages: 779–799
     year: 2022
-    venue: Journal of Economic Geography, 22(4)
-    links:
-    - label: Paper
-      url: https://doi.org/10.1093/jeg/lbab022
+    doi_url: https://doi.org/10.1093/jeg/lbab022
+    abstract: We investigate the impact of an increase in immigrant inflows on natives’ residential choices in a
+      large metropolitan city. We utilize an administrative dataset containing information about residential address
+      changes and self-reported reasons for relocation. Exploiting the expansion of a special visa program as an
+      exogenous shock, we find that immigration inflows are both a push and a pull factor for natives. While neighborhoods
+      in Seoul lost more than 6 natives for every 10 additional immigrants between 2006 and 2015, certain native
+      workers were drawn to areas with immigrant inflows for job-related reasons.
   - title: 'Social insurance in an aging population: Impacts of a government transfer program in South Korea'
     coauthors: Kanghyock Koh
+    journal: Economic Development and Cultural Change
+    volume: 69
+    issue: 4
     year: 2021
-    venue: Economic Development and Cultural Change, 69(4)
     links:
-    - label: Paper
+    - label: Journal
       url: https://doi.org/10.1086/705021
   - title: Is there regional inequality in medical accessibility of the severely injured? Application of driving
       time data in South Korea
     coauthors: Elliot Kang, Min Gyung Kim, and Kanghyock Koh
+    journal: Journal of Market Economy
+    volume: 49
+    issue: 1
     year: 2020
-    venue: Journal of Market Economy, 49(1)
     links:
-    - label: Paper
+    - label: Journal
       url: http://kiss.kstudy.com/thesis/thesis-view.asp?key=3759942
 - field: Political Science
   items:
-  - title: 'In strongman we trust: The political legacy of the New Village Movement in South Korea'
+  - title: 'In Strongman We Trust: The Political Legacy of the New Village Movement in South Korea'
     coauthors: Jean Hong and Sunkyoung Park
+    journal: American Journal of Political Science
+    volume: '67'
+    issue: 4
+    pages: 850–866
     year: 2023
-    venue: American Journal of Political Science, 67(4)
     award: 2023 Best Article Prize in the Study of Democracy & Autocracy
-    links:
-    - label: Paper
-      url: https://onlinelibrary.wiley.com/share/author/FNKP8TUESVH9CMY9QTC5?target=10.1111/ajps.12716
+    doi_url: https://doi.org/10.1111/ajps.12716
+    abstract: This study explores how authoritarian distributive policies may not only generate political support
+      for the autocrat but may also help sustain powerful and lasting authoritarian legacies. We use microlevel
+      data from South Korea’s New Village Movement, a 1970s rural development program implemented under dictator
+      Park Chung-hee and widely touted as contributing to the country’s rapid economic development. Our analysis
+      shows that townships in receipt of larger cash transfers cast more votes for Park’s incumbent party in the
+      subsequent election. More importantly, we show that the effects of the subsidies still appeared almost four
+      decades later in 2012, when the dictator’s daughter was democratically elected as the president of South Korea.
+      We show that these effects were not driven by villagers’ long-term income gains or enhanced social capital
+      due to the program but by the unwavering support of the beneficiary villagers for the dictator, whose legacy
+      remained strong long after democratization.
 - field: Multidisciplinary Sciences
   items:
   - title: A human-machine collaborative approach measures economic development using satellite imagery
     coauthors: Donghyun Ahn, Jeasurk Yang, Sungwon Han, Sungwon Park, Susang Lee, Jihee Kim, Sangyoon Park, and
       Meeyoung Cha
+    journal: Nature Communications
+    volume: '14'
+    pages: Article 6811
     year: 2023
-    venue: Nature Communications
-    links:
-    - label: Paper
-      url: https://doi.org/10.1038/s41467-023-42122-8
+    doi_url: https://doi.org/10.1038/s41467-023-42122-8
+    pdf: assets/papers/yang2023_naturecomm.pdf
+    pdf_label: PDF (open access)
+    abstract: Machine learning approaches using satellite imagery are providing accessible ways to infer socioeconomic
+      measures without visiting a region. However, many algorithms require integration of ground-truth data, while
+      regional data are scarce or even absent in many countries. Here we present our human-machine collaborative
+      model which predicts grid-level economic development using publicly available satellite imagery and lightweight
+      subjective ranking annotation without any ground data. We applied the model to North Korea and produced fine-grained
+      predictions of economic development for the nation where data is not readily available. Our model suggests
+      substantial development in the country’s capital and areas with state-led development projects in recent years.
+      We showed the broad applicability of our model by examining five of the least developed countries in Asia,
+      covering 400,000 grids. Our method can both yield highly granular economic information on hard-to-visit and
+      low-resource regions and can potentially guide sustainable development programs.
   - title: 'Disaster assessment using computer vision and satellite imagery: Applications in detecting water-related
       building damages'
     coauthors: Danu Kim, Jeongkyung Won, Eunji Lee, Kyung Ryul Park, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+    journal: Frontiers in Environmental Science
+    volume: '10'
+    pages: Article 969758
     year: 2022
-    venue: Frontiers in Environmental Science
-    links:
-    - label: Paper
-      url: https://www.frontiersin.org/articles/10.3389/fenvs.2022.969758
+    doi_url: https://doi.org/10.3389/fenvs.2022.969758
+    pdf: assets/papers/kim2022_frontiers.pdf
+    pdf_label: PDF (open access)
+    abstract: The increasing frequency and severity of water-related disasters such as floods, tornadoes, hurricanes,
+      and tsunamis in low- and middle-income countries exemplify the uneven effects of global climate change. The
+      vulnerability of high-risk societies to natural disasters has continued to increase. To develop an effective
+      and efficient adaptation strategy, local damage assessments must be timely, exhaustive, and accurate. We propose
+      a novel deep-learning-based solution that uses pairs of pre- and post-disaster satellite images to identify
+      water-related disaster-affected regions. The model extracts features of pre- and post-disaster images and
+      uses the feature difference with them to predict damage in the pair. We demonstrate that the model can successfully
+      identify local destruction using less granular and less complex ground-truth data than those used by previous
+      segmentation models. When tested with various water-related disasters, our detection model reported an accuracy
+      of 85.9% in spotting areas with damaged buildings. It also achieved a reliable performance of 80.3% in out-of-domain
+      settings. Our deep learning-based damage assessment model can help direct resources to areas most vulnerable
+      to climate disasters, reducing their impacts while promoting adaptive capacities for climate-resilient development
+      in the most vulnerable regions.
 - field: Hospitality and Tourism
   items:
-  - title: 'Effects of visual cues and social density on beverage consumption: A field experiment in a bar'
+  - title: 'Effects of Visual Cues and Social Density on Beverage Consumption: A Field Experiment in a Bar'
     coauthors: Min Gyung Kim and Anna Mattila
+    journal: Cornell Hospitality Quarterly
+    volume: '63'
+    issue: 2
+    pages: 182–194
     year: 2022
-    venue: Cornell Hospitality Quarterly, 63(2)
-    links:
-    - label: Paper
-      url: https://journals.sagepub.com/doi/full/10.1177/1938965520985498
-  - title: 'Persistent effects of mega-events on local economies: An application of administrative big data'
+    doi_url: https://doi.org/10.1177/1938965520985498
+    abstract: We conducted a randomized controlled field study to explore the effectiveness of sensory marketing
+      on beverage consumption patterns in a real bar setting. Specifically, we examined (a) the effect of visual
+      elements (i.e., consumption-inducing text messages on coasters), (b) the effect of social density, and (c)
+      the joint effect of visual elements and social density. We manipulated coaster type (visual consumption-inducing
+      messages either present or absent), measured social density, and collected sales data. The results show that
+      visual elements have a significant effect on beverage consumption, but social density does not. The joint
+      effect between the two factors is significant such that the effect of visual elements is higher when social
+      density is low. This study contributes to the sensory marketing literature by revealing the interaction between
+      visual and spatial cues in a field setting.
+  - title: 'Persistent effects of mega-events on local economies: an application of administrative big data'
     coauthors: Min Gyung Kim
+    journal: Asia Pacific Journal of Tourism Research
+    volume: 26
+    issue: 12
     year: 2021
-    venue: Asia Pacific Journal of Tourism Research, 26(12)
-    links:
-    - label: Paper
-      url: https://doi.org/10.1080/10941665.2021.1983625
+    doi_url: https://doi.org/10.1080/10941665.2021.1983625
+    abstract: Do the effects of a mega-event on a local economy persist even after the event has ended? Using a
+      novel administrative big data set of buildings in the host regions, we analyze the long-term effects of the
+      2018 PyeongChang Olympics. For data collection, we converted building-level GIS data into a township-level
+      data set. We used the synthetic control method which enables causal analysis even with a small number of treated
+      units. Our analysis reveals that, despite a short-term increase in the number of local buildings due to the
+      Olympics, effects did not persist 1 year after the event.
   - title: 'The impact of customer loyalty on restaurant sanitation grades and the importance of narrative information:
       The case of New York Restaurant Sanitation Grading System'
     coauthors: Min Gyung Kim and Anna Mattila
+    journal: Cornell Hospitality Quarterly
+    volume: 59
+    issue: 3
     year: 2018
-    venue: Cornell Hospitality Quarterly, 59(3)
     links:
-    - label: Paper
+    - label: Journal
       url: https://doi.org/10.1177/1938965517744075
 - field: Computer Science Conference Proceedings
   items:
   - title: Fine-Grained Socioeconomic Prediction from Satellite Images with Distributional Adjustment
     coauthors: Donghyun Ahn, Minhyuk Song, Seungeon Lee, Yubin Choi, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+    journal: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM
+      ’23)
+    pages: 3717–3721
     year: 2023
-    venue: 'CIKM 2023: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management'
-    links:
-    - label: Paper
-      url: https://dl.acm.org/doi/10.1145/3583780.3615226
-  - title: Learning economic indicators by aggregating multi-level geospatial information
+    doi_url: https://doi.org/10.1145/3583780.3615226
+    abstract: While measuring socioeconomic indicators is critical for local governments to make informed policy
+      decisions, such measurements are often unavailable at fine-grained levels like municipality. This study employs
+      deep learning-based predictions from satellite images to close the gap. We propose a method that assigns a
+      socioeconomic score to each satellite image by capturing the distributional behavior observed in larger areas
+      based on the ground truth. We train an ordinal regression scoring model and adjust the scores to follow the
+      common power law within and across regions. Evaluation based on official statistics in South Korea shows that
+      our method outperforms previous models in predicting population and employment size at both the municipality
+      and grid levels. Our method also demonstrates robust performance in districts with uneven development, suggesting
+      its potential use in developing countries where reliable, fine-grained data is scarce.
+  - title: Learning Economic Indicators by Aggregating Multi-Level Geospatial Information
     coauthors: Sungwon Park, Sungwon Han, Donghyun Ahn, Jaeyeon Kim, Jeasurk Yang, Susang Lee, Seunghoon Hong, Jihee
       Kim, Sangyoon Park, and Meeyoung Cha
+    journal: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-22)
+    volume: 36
+    issue: 11
+    pages: 12053–12061
     year: 2022
-    venue: 'AAAI 2022: Proceedings of the AAAI Conference on Artificial Intelligence'
+    abstract: High-resolution daytime satellite imagery has become a promising source to study economic activities.
+      These images display detailed terrain over large areas and allow zooming into smaller neighborhoods. Existing
+      methods, however, have utilized images only in a single-level geographical unit. This research presents a
+      deep learning model to predict economic indicators via aggregating traits observed from multiple levels of
+      geographical units. The model first measures hyperlocal economy over small communities via ordinal regression.
+      The next step extracts district-level features by summarizing interconnection among hyperlocal economies.
+      In the final step, the model estimates economic indicators of districts via aggregating the hyperlocal and
+      district information. Our new multi-level learning model substantially outperforms strong baselines in predicting
+      key indicators such as population, purchasing power, and energy consumption. The model is also robust against
+      data shortage; the trained features from one country can generalize to other countries when evaluated with
+      data gathered from Malaysia, the Philippines, Thailand, and Vietnam. We discuss the multi-level model’s implications
+      for measuring inequality, which is the essential first step in policy and social science research on inequality
+      and poverty.
     links:
-    - label: Paper
+    - label: Journal
       url: https://doi.org/10.1609/aaai.v36i11.21464
-  - title: Learning to score economic development from satellite imagery
+  - title: Learning to Score Economic Development from Satellite Imagery
     coauthors: Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park, and
       Meeyoung Cha
+    journal: Proceedings of the 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’20)
+    pages: 2970–2979
     year: 2020
-    venue: 'KDD 2020: Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining'
-    links:
-    - label: Paper
-      url: https://doi.org/10.1145/3394486.3403347
+    doi_url: https://doi.org/10.1145/3394486.3403347
+    pdf: assets/papers/han2020_kdd.pdf
+    pdf_label: PDF (open access)
+    abstract: Reliable and timely measurements of economic activities are fundamental for understanding economic
+      development and designing government policies. However, many developing countries still lack reliable data.
+      In this paper, we introduce a novel approach for measuring economic development from high-resolution satellite
+      images in the absence of ground truth statistics. Our method consists of three steps. First, we run a clustering
+      algorithm on satellite images that distinguishes artifacts from nature (siCluster). Second, we generate a
+      partial order graph of the identified clusters based on the level of economic development, either by human
+      guidance or by low-resolution statistics (siPog). Third, we use a CNN-based sorter that assigns differentiable
+      scores to each satellite grid based on the relative ranks of clusters (siScore). The novelty of our method
+      is that we break down a computationally hard problem into sub-tasks, which involves a human-in-the-loop solution.
+      With the combination of unsupervised learning and the partial orders of dozens of urban vs. rural clusters,
+      our method can estimate the economic development scores of over 10,000 satellite grids consistently with other
+      baseline development proxies (Spearman correlation of 0.851). This efficient method is interpretable and robust;
+      we demonstrate how to apply our method to both developed (e.g., South Korea) and developing economies (e.g.,
+      Vietnam and Malawi).
 datasets:
 - title: 1 km grid-level data, 1918 and 1970 (residential settlement and rice)
   image: assets/img/data_1.jpg
