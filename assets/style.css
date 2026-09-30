@@ -95,6 +95,7 @@ h2 { font: 600 12.5px/1 var(--sans); text-transform: uppercase; letter-spacing: 
 .ptitle a { color: var(--ink); }
 .ptitle a:hover { color: var(--accent); text-decoration: none; }
 .authors, .venue, .desc, .cite { margin: 0; font-size: 14.5px; color: var(--muted); }
+.authors strong { color: var(--ink); font-weight: 600; }
 .venue em { color: var(--text); }
 .award { display: inline-block; margin: 6px 0 0; font-size: 12.5px; font-weight: 500; color: var(--accent);
          background: var(--accent-soft); border-radius: 3px; padding: 1px 8px; }

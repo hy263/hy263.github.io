@@ -5,10 +5,14 @@
 <article class="paper{% if x.figure %} has-fig{% endif %}">
 <div class="ptext">
   <h4 class="ptitle">{% if title_url %}<a href="{{ title_url }}">{{ x.title }}</a>{% else %}{{ x.title }}{% endif %}</h4>
-  {% set meta = [] %}
-  {% if x.coauthors %}{% set _ = meta.append('with ' ~ x.coauthors) %}{% endif %}
-  {% if x.year and not (x.venue or x.journal) %}{% set _ = meta.append(x.year|string) %}{% endif %}
-  {% if meta %}<p class="authors">{{ meta|join(' · ') }}</p>{% endif %}
+  {#- all authors in published order; the site owner in bold -#}
+  {% if x.authors %}<p class="authors">
+    {%- for a in x.authors -%}
+      {%- if not loop.first %}{% if loop.last %}{{ ' and ' if loop.length == 2 else ', and ' }}{% else %}, {% endif %}{% endif -%}
+      {%- if a == p.name %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif -%}
+    {%- endfor -%}
+    {%- if x.year and not (x.venue or x.journal) %} · {{ x.year }}{% endif -%}
+  </p>{% elif x.year and not (x.venue or x.journal) %}<p class="authors">{{ x.year }}</p>{% endif %}
   {% if x.journal %}
   <p class="venue"><em>{{ x.journal }}</em>{% if x.volume %}, {{ x.volume }}{% if x.issue %}({{ x.issue }}){% endif %}{% endif %}{% if x.pages %}, {{ x.pages }}{% endif %}{% if x.year %}, {{ x.year }}{% endif %}{% if x.note %} · {{ x.note }}{% endif %}</p>
   {% elif x.venue %}

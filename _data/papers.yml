@@ -1,10 +1,12 @@
 # One entry per paper. To add a paper, copy an entry and edit it.
 # Fields: title, coauthors (optional), year (optional), venue (optional), note (optional), award (optional),
 #         abstract (optional), links: list of {label, url}
-# Names: "First Last", no affiliations.
+# authors: full list in published order, "First Last".
 
 working_papers:
 - title: 'Neighbors After the Purge: Killings, Lineage, and Cooperation in Korean Villages, 1950–1972'
+  authors:
+  - Hyunjoo Yang
   year: 2026
   venue: SSRN Working Paper 7534558
   links:
@@ -39,7 +41,9 @@ working_papers:
     title: 'The Effect of War on Local Collective Action: Evidence from the Korean War'
     url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3162661
 - title: 'Zoning by Fire: State Violence and the Long-Run Geography of Jeju, 1948–2019'
-  coauthors: Kyeongsoon Moon
+  authors:
+  - Hyunjoo Yang
+  - Kyeongsoon Moon
   year: 2026
   abstract: 'In October 1948 the South Korean army declared the interior of Jeju a prohibited area, and over the
     following winter it burned the villages there and moved their people to the coast. The government’s investigation
@@ -55,7 +59,9 @@ working_papers:
     no interaction with the pre-war division of a village between two lineages. The cells and villages are the population
     of Jeju, so we report design-based p-values from reassigning the treatment rather than standard errors.'
 - title: 'Deworming, Reinfection, and Village Conditions: Evidence from Korean Primary Schools, 1971–1977'
-  coauthors: Jungho Kim
+  authors:
+  - Jungho Kim
+  - Hyunjoo Yang
   year: 2026
   abstract: 'In the early 1970s, about two thirds of rural Korean schoolchildren had intestinal helminths. Schools
     examined pupils each spring and each fall, and infected pupils received drugs after the examination. We use
@@ -74,9 +80,15 @@ working_papers:
     in the cohorts that were in school during 1971–77. A second test with credit-bureau data on a 1 km grid also
     finds no credible effect.'
 - title: 'Land Reform at the Parcel Level: A Spatial Reconstruction from a Korean Village, 1915–2019'
-  coauthors: Jongryong Park
+  authors:
+  - Jongryong Park
+  - Hyunjoo Yang
 - title: 'The Geography of Fertility: Theory and Evidence from Korea'
-  coauthors: Costas Arkolakis, Jun Hee Kwak, and Jaemin Woo
+  authors:
+  - Costas Arkolakis
+  - Jun Hee Kwak
+  - Hyunjoo Yang
+  - Jaemin Woo
   abstract: We study fertility in a dynamic spatial equilibrium model with endogenous location and residential choices,
     alongside investments in children's education. We estimate the model using near-universal administrative microdata
     from South Korea, drawing on census records, credit bureau data linked to mobile phone mobility records, and
@@ -89,9 +101,17 @@ working_papers:
     may have the opposite effect on fertility than intended due to spatial sorting. However, a combination of nationwide
     policies targeting the fertility margin directly can boost fertility significantly.
 - title: 'Shadow of Authoritarian Patronage: Village Leaders and Elections in Democratizing South Korea'
-  coauthors: Jean Hong and Sunkyoung Park
+  authors:
+  - Ji Yeon Hong
+  - Sunkyoung Park
+  - Hyunjoo Yang
 - title: Gambling for Goals
-  coauthors: Costas Arkolakis, Spencer Y. Kwon, Dominic Russel, and Claire Shi
+  authors:
+  - Costas Arkolakis
+  - Spencer Y. Kwon
+  - Dominic Russel
+  - Claire Shi
+  - Hyunjoo Yang
   links:
   - label: SSRN
     url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5761702
@@ -108,29 +128,49 @@ working_papers:
     reduces interest in cryptocurrency. We conclude with a stylized calibration that shows how goal-driven risk
     preferences can amplify the welfare costs of overoptimism.'
 - title: Using Maps to Predict Economic Activity
-  coauthors: Imryoung Jeong
+  authors:
+  - Imryoung Jeong
+  - Hyunjoo Yang
   links:
   - label: Draft
     url: https://docs.google.com/document/d/1Q_uhzpW2MypwOyRcVViZp7o3pDaifaOLEK3L-SDSQCg/edit?usp=sharing
 - title: Land Reform, Entrepreneurship, and Economic Growth in South Korea
-  coauthors: Jongryong Park
+  authors:
+  - Jongryong Park
+  - Hyunjoo Yang
 - title: 'Teaching Machines to Measure Economic Activities from Satellite Images: Challenges and Solutions'
-  coauthors: Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park, and Meeyoung
-    Cha
+  authors:
+  - Sungwon Han
+  - Donghyun Ahn
+  - Sungwon Park
+  - Jeasurk Yang
+  - Susang Lee
+  - Jihee Kim
+  - Hyunjoo Yang
+  - Sangyoon Park
+  - Meeyoung Cha
   links:
   - label: PDF
     url: https://drive.google.com/file/d/1-UBIuWIC-79R5irgJIg7XYO-YFRLLHIz/view?usp=sharing
 - title: Did High-Speed Trains Promote Local Economic Activities? Evidence from the Introduction of Korea Train
     Express
-  coauthors: Elliot Kang and Kanghyock Koh
+  authors:
+  - Elliot Kang
+  - Kanghyock Koh
+  - Hyunjoo Yang
 - title: Village Leadership and Rural Development in South Korea
-  coauthors: Taejong Kim and Sunjin Kim
+  authors:
+  - Sunjin Kim
+  - Taejong Kim
+  - Hyunjoo Yang
 publications:
 - field: 'Economics: Korean History'
   items:
   - title: 'Inside the Reform: Patterns of Ex-Ante Disposals of Farmland in Anryong-myeon, Suwon, as Seen Through
       the Jise Myeonggijang'
-    coauthors: Jongryong Park
+    authors:
+    - Jongryong Park
+    - Hyunjoo Yang
     journal: Korean Culture (한국문화)
     volume: '114'
     pages: 289–318
@@ -159,7 +199,10 @@ publications:
       versus legal redistribution may have carried significantly different implications for the local economy.'
   - title: 'Measuring Historical Settlement and Agricultural Structure from Topographic Maps: An Object Detection
       Approach for South Korea, 1918 and 1970'
-    coauthors: Izzat Hassan Bin Halim and Jeongeun Kim
+    authors:
+    - Hyunjoo Yang
+    - Izzat Hassan Bin Halim
+    - Jeongeun Kim
     journal: 'Kyungje Sahak: Review of Economic History (경제사학)'
     volume: '50'
     issue: 2
@@ -180,7 +223,10 @@ publications:
     - label: Data
       url: ../data/
   - title: The Effects of South Korean Protestantism on Human Capital and Female Empowerment, 1930–2010
-    coauthors: Yutaro Izumi and Sangyoon Park
+    authors:
+    - Yutaro Izumi
+    - Sangyoon Park
+    - Hyunjoo Yang
     journal: Journal of Comparative Economics
     volume: '51'
     issue: 2
@@ -193,6 +239,8 @@ publications:
       on women’s literacy and employment, but not on men’s. After almost a century, we find no strong relationship
       between historical Protestant churches and women’s educational attainment or economic and political empowerment.
   - title: 'Family Clans and Public Goods: Evidence from the New Village Beautification Project in South Korea'
+    authors:
+    - Hyunjoo Yang
     journal: Journal of Development Economics
     volume: '136'
     pages: 34–50
@@ -214,7 +262,11 @@ publications:
 - field: 'Economics: Current Korean Issues'
   items:
   - title: To Move or Not to Move? Immigration and Natives’ Neighborhood Choices in Seoul, Korea
-    coauthors: Joseph Han, Jinwook Hur, and Jongkwan Lee
+    authors:
+    - Joseph Han
+    - Jinwook Hur
+    - Jongkwan Lee
+    - Hyunjoo Yang
     journal: Journal of Economic Geography
     volume: '22'
     issue: 4
@@ -228,7 +280,9 @@ publications:
       in Seoul lost more than 6 natives for every 10 additional immigrants between 2006 and 2015, certain native
       workers were drawn to areas with immigrant inflows for job-related reasons.
   - title: 'Social Insurance in an Aging Population: Impacts of a Government Transfer Program in South Korea'
-    coauthors: Kanghyock Koh
+    authors:
+    - Kanghyock Koh
+    - Hyunjoo Yang
     journal: Economic Development and Cultural Change
     volume: 69
     issue: 4
@@ -238,18 +292,24 @@ publications:
       url: https://doi.org/10.1086/705021
   - title: Is There Regional Inequality in Medical Accessibility of the Severely Injured? Application of Driving
       Time Data in South Korea
-    coauthors: Elliot Kang, Min Gyung Kim, and Kanghyock Koh
+    authors:
+    - Hyunjoo Yang
+    - Elliot Kang
+    - Min Gyung Kim
+    - Kanghyock Koh
     journal: Journal of Market Economy
     volume: 49
     issue: 1
     year: 2020
-    links:
-    - label: Published paper
-      url: http://kiss.kstudy.com/thesis/thesis-view.asp?key=3759942
+    pages: 1–29
+    doi_url: https://doi.org/10.38162/JOME.49.1.1
 - field: Political Science
   items:
   - title: 'In Strongman We Trust: The Political Legacy of the New Village Movement in South Korea'
-    coauthors: Jean Hong and Sunkyoung Park
+    authors:
+    - Ji Yeon Hong
+    - Sunkyoung Park
+    - Hyunjoo Yang
     journal: American Journal of Political Science
     volume: '67'
     issue: 4
@@ -270,8 +330,17 @@ publications:
 - field: Multidisciplinary Sciences
   items:
   - title: A Human-Machine Collaborative Approach Measures Economic Development Using Satellite Imagery
-    coauthors: Donghyun Ahn, Jeasurk Yang, Meeyoung Cha, Jihee Kim, Sangyoon Park, Sungwon Han, Eunji Lee, Susang
-      Lee, and Sungwon Park
+    authors:
+    - Donghyun Ahn
+    - Jeasurk Yang
+    - Meeyoung Cha
+    - Hyunjoo Yang
+    - Jihee Kim
+    - Sangyoon Park
+    - Sungwon Han
+    - Eunji Lee
+    - Susang Lee
+    - Sungwon Park
     journal: Nature Communications
     volume: '14'
     pages: Article 6811
@@ -290,7 +359,15 @@ publications:
       low-resource regions and can potentially guide sustainable development programs.
   - title: 'Disaster Assessment Using Computer Vision and Satellite Imagery: Applications in Detecting Water-Related
       Building Damages'
-    coauthors: Danu Kim, Jeongkyung Won, Eunji Lee, Kyung Ryul Park, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+    authors:
+    - Danu Kim
+    - Jeongkyung Won
+    - Eunji Lee
+    - Kyung Ryul Park
+    - Jihee Kim
+    - Sangyoon Park
+    - Hyunjoo Yang
+    - Meeyoung Cha
     journal: Frontiers in Environmental Science
     volume: '10'
     pages: Article 969758
@@ -313,7 +390,10 @@ publications:
 - field: Hospitality and Tourism
   items:
   - title: 'Effects of Visual Cues and Social Density on Beverage Consumption: A Field Experiment in a Bar'
-    coauthors: Min Gyung Kim and Anna Mattila
+    authors:
+    - Min Gyung Kim
+    - Hyunjoo Yang
+    - Anna S. Mattila
     journal: Cornell Hospitality Quarterly
     volume: '63'
     issue: 2
@@ -330,7 +410,9 @@ publications:
       density is low. This study contributes to the sensory marketing literature by revealing the interaction between
       visual and spatial cues in a field setting.
   - title: 'Persistent Effects of Mega-Events on Local Economies: An Application of Administrative Big Data'
-    coauthors: Min Gyung Kim
+    authors:
+    - Min Gyung Kim
+    - Hyunjoo Yang
     journal: Asia Pacific Journal of Tourism Research
     volume: 26
     issue: 12
@@ -344,7 +426,10 @@ publications:
       Olympics, effects did not persist 1 year after the event.
   - title: 'The Impact of Customer Loyalty on Restaurant Sanitation Grades and the Importance of Narrative Information:
       The Case of New York Restaurant Sanitation Grading System'
-    coauthors: Min Gyung Kim and Anna Mattila
+    authors:
+    - Min Gyung Kim
+    - Hyunjoo Yang
+    - Anna S. Mattila
     journal: Cornell Hospitality Quarterly
     volume: 59
     issue: 3
@@ -355,7 +440,15 @@ publications:
 - field: Computer Science Conference Proceedings
   items:
   - title: Fine-Grained Socioeconomic Prediction from Satellite Images with Distributional Adjustment
-    coauthors: Donghyun Ahn, Minhyuk Song, Seungeon Lee, Yubin Choi, Jihee Kim, Sangyoon Park, and Meeyoung Cha
+    authors:
+    - Donghyun Ahn
+    - Minhyuk Song
+    - Seungeon Lee
+    - Yubin Choi
+    - Jihee Kim
+    - Sangyoon Park
+    - Hyunjoo Yang
+    - Meeyoung Cha
     journal: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM
       ’23)
     pages: 3717–3721
@@ -371,8 +464,18 @@ publications:
       and grid levels. Our method also demonstrates robust performance in districts with uneven development, suggesting
       its potential use in developing countries where reliable, fine-grained data is scarce.
   - title: Learning Economic Indicators by Aggregating Multi-Level Geospatial Information
-    coauthors: Sungwon Park, Sungwon Han, Donghyun Ahn, Jaeyeon Kim, Jeasurk Yang, Susang Lee, Seunghoon Hong, Jihee
-      Kim, Sangyoon Park, and Meeyoung Cha
+    authors:
+    - Sungwon Park
+    - Sungwon Han
+    - Donghyun Ahn
+    - Jaeyeon Kim
+    - Jeasurk Yang
+    - Susang Lee
+    - Seunghoon Hong
+    - Jihee Kim
+    - Sangyoon Park
+    - Hyunjoo Yang
+    - Meeyoung Cha
     journal: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-22)
     volume: 36
     issue: 11
@@ -395,8 +498,16 @@ publications:
     - label: Published paper
       url: https://doi.org/10.1609/aaai.v36i11.21464
   - title: Learning to Score Economic Development from Satellite Imagery
-    coauthors: Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park, and
-      Meeyoung Cha
+    authors:
+    - Sungwon Han
+    - Donghyun Ahn
+    - Sungwon Park
+    - Jeasurk Yang
+    - Susang Lee
+    - Jihee Kim
+    - Hyunjoo Yang
+    - Sangyoon Park
+    - Meeyoung Cha
     journal: Proceedings of the 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’20)
     pages: 2970–2979
     year: 2020
