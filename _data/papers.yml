@@ -128,7 +128,7 @@ working_papers:
 publications:
 - field: 'Economics: Korean history'
   items:
-  - title: 'Inside the Reform: Patterns of Ex-ante Disposals of farmland in Anryong-myeon, Suwon, as Seen Through
+  - title: 'Inside the Reform: Patterns of Ex-Ante Disposals of Farmland in Anryong-myeon, Suwon, as Seen Through
       the Jise Myeonggijang'
     coauthors: Jongryong Park
     journal: Korean Culture (한국문화)
@@ -179,7 +179,7 @@ publications:
       url: https://www.dropbox.com/scl/fi/8t70gwvjtwbc4kljrtvr5/Yolo_map_paper_most_recent.pdf?rlkey=hinfb18h9hbxznsjgtwtih5vw&dl=1
     - label: Data
       url: ../data/
-  - title: The effects of South Korean Protestantism on human capital and female empowerment, 1930–2010
+  - title: The Effects of South Korean Protestantism on Human Capital and Female Empowerment, 1930–2010
     coauthors: Yutaro Izumi and Sangyoon Park
     journal: Journal of Comparative Economics
     volume: '51'
@@ -192,7 +192,7 @@ publications:
       census and social survey data. In the short run, we find a positive and significant effect of Protestant churches
       on women’s literacy and employment, but not on men’s. After almost a century, we find no strong relationship
       between historical Protestant churches and women’s educational attainment or economic and political empowerment.
-  - title: 'Family clans and public goods: Evidence from the New Village Beautification Project in South Korea'
+  - title: 'Family Clans and Public Goods: Evidence from the New Village Beautification Project in South Korea'
     journal: Journal of Development Economics
     volume: '136'
     pages: 34–50
@@ -213,7 +213,7 @@ publications:
       url: ../data/
 - field: 'Economics: Current Korean issues'
   items:
-  - title: To move or not to move? Immigration and natives’ neighborhood choices in Seoul, Korea
+  - title: To Move or Not to Move? Immigration and Natives’ Neighborhood Choices in Seoul, Korea
     coauthors: Joseph Han, Jinwook Hur, and Jongkwan Lee
     journal: Journal of Economic Geography
     volume: '22'
@@ -227,7 +227,7 @@ publications:
       exogenous shock, we find that immigration inflows are both a push and a pull factor for natives. While neighborhoods
       in Seoul lost more than 6 natives for every 10 additional immigrants between 2006 and 2015, certain native
       workers were drawn to areas with immigrant inflows for job-related reasons.
-  - title: 'Social insurance in an aging population: Impacts of a government transfer program in South Korea'
+  - title: 'Social Insurance in an Aging Population: Impacts of a Government Transfer Program in South Korea'
     coauthors: Kanghyock Koh
     journal: Economic Development and Cultural Change
     volume: 69
@@ -236,8 +236,8 @@ publications:
     links:
     - label: Journal
       url: https://doi.org/10.1086/705021
-  - title: Is there regional inequality in medical accessibility of the severely injured? Application of driving
-      time data in South Korea
+  - title: Is There Regional Inequality in Medical Accessibility of the Severely Injured? Application of Driving
+      Time Data in South Korea
     coauthors: Elliot Kang, Min Gyung Kim, and Kanghyock Koh
     journal: Journal of Market Economy
     volume: 49
@@ -269,7 +269,7 @@ publications:
       remained strong long after democratization.
 - field: Multidisciplinary Sciences
   items:
-  - title: A human-machine collaborative approach measures economic development using satellite imagery
+  - title: A Human-Machine Collaborative Approach Measures Economic Development Using Satellite Imagery
     coauthors: Donghyun Ahn, Jeasurk Yang, Sungwon Han, Sungwon Park, Susang Lee, Jihee Kim, Sangyoon Park, and
       Meeyoung Cha
     journal: Nature Communications
@@ -289,8 +289,8 @@ publications:
       We showed the broad applicability of our model by examining five of the least developed countries in Asia,
       covering 400,000 grids. Our method can both yield highly granular economic information on hard-to-visit and
       low-resource regions and can potentially guide sustainable development programs.
-  - title: 'Disaster assessment using computer vision and satellite imagery: Applications in detecting water-related
-      building damages'
+  - title: 'Disaster Assessment Using Computer Vision and Satellite Imagery: Applications in Detecting Water-Related
+      Building Damages'
     coauthors: Danu Kim, Jeongkyung Won, Eunji Lee, Kyung Ryul Park, Jihee Kim, Sangyoon Park, and Meeyoung Cha
     journal: Frontiers in Environmental Science
     volume: '10'
@@ -331,7 +331,7 @@ publications:
       effect between the two factors is significant such that the effect of visual elements is higher when social
       density is low. This study contributes to the sensory marketing literature by revealing the interaction between
       visual and spatial cues in a field setting.
-  - title: 'Persistent effects of mega-events on local economies: an application of administrative big data'
+  - title: 'Persistent Effects of Mega-Events on Local Economies: An Application of Administrative Big Data'
     coauthors: Min Gyung Kim
     journal: Asia Pacific Journal of Tourism Research
     volume: 26
@@ -344,8 +344,8 @@ publications:
       data set. We used the synthetic control method which enables causal analysis even with a small number of treated
       units. Our analysis reveals that, despite a short-term increase in the number of local buildings due to the
       Olympics, effects did not persist 1 year after the event.
-  - title: 'The impact of customer loyalty on restaurant sanitation grades and the importance of narrative information:
-      The case of New York Restaurant Sanitation Grading System'
+  - title: 'The Impact of Customer Loyalty on Restaurant Sanitation Grades and the Importance of Narrative Information:
+      The Case of New York Restaurant Sanitation Grading System'
     coauthors: Min Gyung Kim and Anna Mattila
     journal: Cornell Hospitality Quarterly
     volume: 59
