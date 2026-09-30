@@ -126,7 +126,7 @@ working_papers:
 - title: Village Leadership and Rural Development in South Korea
   coauthors: Taejong Kim and Sunjin Kim
 publications:
-- field: 'Economics: Korean history'
+- field: 'Economics: Korean History'
   items:
   - title: 'Inside the Reform: Patterns of Ex-Ante Disposals of Farmland in Anryong-myeon, Suwon, as Seen Through
       the Jise Myeonggijang'
@@ -211,7 +211,7 @@ publications:
     links:
     - label: Data
       url: ../data/
-- field: 'Economics: Current Korean issues'
+- field: 'Economics: Current Korean Issues'
   items:
   - title: To Move or Not to Move? Immigration and Natives’ Neighborhood Choices in Seoul, Korea
     coauthors: Joseph Han, Jinwook Hur, and Jongkwan Lee

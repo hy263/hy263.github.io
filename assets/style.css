@@ -62,6 +62,8 @@ h2 { font: 600 12.5px/1 var(--sans); text-transform: uppercase; letter-spacing: 
 .intro { color: var(--muted); margin: 0 0 8px; max-width: 680px; }
 .list { max-width: 860px; margin-top: 32px; }
 .list > h2:first-child { margin-top: 0; }
+.list h2 { font: 600 23px/1.3 var(--serif); text-transform: none; letter-spacing: 0; color: var(--ink);
+           margin: 52px 0 18px; padding-bottom: 10px; }
 
 /* entries */
 .paper { margin: 0 0 22px; }
