@@ -8,7 +8,7 @@
     {% for a in p.affiliations %}<p class="affil">{{ a }}</p>{% endfor %}
     <p class="email">{{ p.email_display }}</p>
     <ul class="profiles">
-      {% for l in p.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}
+      {% for l in p.links %}<li><a href="{{ root ~ 'cv/' if l.label == 'CV' else l.url }}">{{ l.label }}</a></li>{% endfor %}
     </ul>
   </div>
   <div class="home-text">

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="cv-head">
+  <h1 class="page-title">Curriculum Vitae</h1>
+  <p class="cv-actions">
+    <a class="btn" href="{{ root }}{{ cv }}" download="Hyunjoo_Yang_CV.pdf">Download CV (PDF)</a>
+    <a class="btn-plain" href="{{ root }}{{ cv }}">Open in new tab</a>
+  </p>
+</div>
+<object class="cv-view" data="{{ root }}{{ cv }}#view=FitH" type="application/pdf">
+  <p class="intro">Your browser cannot show the PDF here. <a href="{{ root }}{{ cv }}" download>Download the CV</a>.</p>
+</object>
+{% endblock %}
