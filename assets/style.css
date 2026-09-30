@@ -39,6 +39,9 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* home */
 .home { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: clamp(32px, 6vw, 72px); }
+.portrait { display: block; width: 100%; max-width: 250px; height: auto;
+            border-radius: 4px; margin: 0 0 22px; }
+@media (max-width: 820px) { .portrait { max-width: 200px; } }
 h1 { font: 600 32px/1.15 var(--serif); color: var(--ink); letter-spacing: -.01em; margin: 0 0 12px; }
 .position { margin: 0 0 6px; color: var(--ink); font-weight: 500; }
 .affil { margin: 0 0 4px; color: var(--muted); font-size: 14.5px; line-height: 1.5; }

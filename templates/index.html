@@ -2,6 +2,7 @@
 {% block content %}
 <div class="home">
   <div class="home-id">
+    {% if p.photo %}<img class="portrait" src="{{ p.photo }}" alt="{{ p.name }}" width="580" height="650">{% endif %}
     <h1>{{ p.name }}</h1>
     <p class="position">{{ p.position }}</p>
     {% for a in p.affiliations %}<p class="affil">{{ a }}</p>{% endfor %}
