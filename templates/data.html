@@ -2,13 +2,21 @@
 {% block content %}
 <h1 class="page-title">Data</h1>
 <p class="intro">Data sets built for my research. Please cite the paper listed with each data set.</p>
-<div class="list">
+<div class="list datasets">
   {% for x in d.datasets %}
-  <article class="paper">
-    <h4 class="ptitle">{{ x.title }}</h4>
-    <p class="desc">{{ x.description }}</p>
-    <p class="cite"><span class="label">Cite</span> {{ x.cite }}</p>
-    <p class="plinks">{% for l in x.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+  <article class="dataset">
+    {% if x.image %}
+    <figure class="dfig">
+      <img src="{{ root }}{{ x.image }}" alt="{{ x.caption or x.title }}" loading="lazy">
+      {% if x.caption %}<figcaption>{{ x.caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+    <div class="dtext">
+      <h4 class="ptitle">{{ x.title }}</h4>
+      <p class="desc">{{ x.description }}</p>
+      <p class="cite"><span class="label">Cite</span> {{ x.cite }}</p>
+      <p class="plinks">{% for l in x.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+    </div>
   </article>
   {% endfor %}
 </div>
