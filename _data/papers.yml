@@ -157,8 +157,6 @@ publications:
       that when analyzing the long-term impacts of the land reform on rural societies, future research should consider
       that even if the total apparent scale of redistribution was similar, the relative proportion of ex-ante disposals
       versus legal redistribution may have carried significantly different implications for the local economy.'
-    figure: assets/img/pubs/p01.png
-    figure_caption: Annual farmland sales in area and value, 1943–1949 (Figure 2).
   - title: 'Measuring Historical Settlement and Agricultural Structure from Topographic Maps: An Object Detection
       Approach for South Korea, 1918 and 1970'
     coauthors: Izzat Hassan Bin Halim and Jeongeun Kim
@@ -181,8 +179,6 @@ publications:
       url: https://www.dropbox.com/scl/fi/8t70gwvjtwbc4kljrtvr5/Yolo_map_paper_most_recent.pdf?rlkey=hinfb18h9hbxznsjgtwtih5vw&dl=1
     - label: Data
       url: ../data/
-    figure: assets/img/pubs/p02.png
-    figure_caption: Machine-detected residential houses per 1 km grid cell, 1918 vs. 1970 (Figure 5).
   - title: The Effects of South Korean Protestantism on Human Capital and Female Empowerment, 1930–2010
     coauthors: Yutaro Izumi and Sangyoon Park
     journal: Journal of Comparative Economics
@@ -196,8 +192,6 @@ publications:
       census and social survey data. In the short run, we find a positive and significant effect of Protestant churches
       on women’s literacy and employment, but not on men’s. After almost a century, we find no strong relationship
       between historical Protestant churches and women’s educational attainment or economic and political empowerment.
-    figure: assets/img/pubs/p03.png
-    figure_caption: Map of Protestant churches and mission centers in Korea, 1915 (Fig. 2).
   - title: 'Family Clans and Public Goods: Evidence from the New Village Beautification Project in South Korea'
     journal: Journal of Development Economics
     volume: '136'
@@ -217,8 +211,6 @@ publications:
     links:
     - label: Data
       url: ../data/
-    figure: assets/img/pubs/p04.png
-    figure_caption: Family clan concentration (Herfindahl index) across North Gyeongsang villages (Fig. 2).
 - field: 'Economics: Current Korean issues'
   items:
   - title: To Move or Not to Move? Immigration and Natives’ Neighborhood Choices in Seoul, Korea
@@ -235,8 +227,6 @@ publications:
       exogenous shock, we find that immigration inflows are both a push and a pull factor for natives. While neighborhoods
       in Seoul lost more than 6 natives for every 10 additional immigrants between 2006 and 2015, certain native
       workers were drawn to areas with immigrant inflows for job-related reasons.
-    figure: assets/img/pubs/p05.png
-    figure_caption: Change in immigrants and natives across Seoul neighborhoods, 2006–2015 (Figure 1).
   - title: 'Social Insurance in an Aging Population: Impacts of a Government Transfer Program in South Korea'
     coauthors: Kanghyock Koh
     journal: Economic Development and Cultural Change
@@ -277,8 +267,6 @@ publications:
       We show that these effects were not driven by villagers’ long-term income gains or enhanced social capital
       due to the program but by the unwavering support of the beneficiary villagers for the dictator, whose legacy
       remained strong long after democratization.
-    figure: assets/img/pubs/p08.png
-    figure_caption: New Village Movement cash transfers by township, 1974–1978 (Figure 3).
 - field: Multidisciplinary Sciences
   items:
   - title: A Human-Machine Collaborative Approach Measures Economic Development Using Satellite Imagery
@@ -300,8 +288,6 @@ publications:
       We showed the broad applicability of our model by examining five of the least developed countries in Asia,
       covering 400,000 grids. Our method can both yield highly granular economic information on hard-to-visit and
       low-resource regions and can potentially guide sustainable development programs.
-    figure: assets/img/pubs/p09.jpg
-    figure_caption: Predicted economic development across North Korea from satellite imagery (Fig. 2).
   - title: 'Disaster Assessment Using Computer Vision and Satellite Imagery: Applications in Detecting Water-Related
       Building Damages'
     coauthors: Danu Kim, Jeongkyung Won, Eunji Lee, Kyung Ryul Park, Jihee Kim, Sangyoon Park, and Meeyoung Cha
@@ -324,8 +310,6 @@ publications:
       settings. Our deep learning-based damage assessment model can help direct resources to areas most vulnerable
       to climate disasters, reducing their impacts while promoting adaptive capacities for climate-resilient development
       in the most vulnerable regions.
-    figure: assets/img/pubs/p10.jpg
-    figure_caption: 'Pre- and post-disaster satellite images: model success and failure cases (Figure 5).'
 - field: Hospitality and Tourism
   items:
   - title: 'Effects of Visual Cues and Social Density on Beverage Consumption: A Field Experiment in a Bar'
@@ -345,8 +329,6 @@ publications:
       effect between the two factors is significant such that the effect of visual elements is higher when social
       density is low. This study contributes to the sensory marketing literature by revealing the interaction between
       visual and spatial cues in a field setting.
-    figure: assets/img/pubs/p11.png
-    figure_caption: Drinks per customer by social density, with and without coaster messages (Figure 1).
   - title: 'Persistent Effects of Mega-Events on Local Economies: An Application of Administrative Big Data'
     coauthors: Min Gyung Kim
     journal: Asia Pacific Journal of Tourism Research
@@ -360,8 +342,6 @@ publications:
       data set. We used the synthetic control method which enables causal analysis even with a small number of treated
       units. Our analysis reveals that, despite a short-term increase in the number of local buildings due to the
       Olympics, effects did not persist 1 year after the event.
-    figure: assets/img/pubs/p12.png
-    figure_caption: Buildings in Bongpyeong vs. synthetic control around the PyeongChang Olympics (Figure 4).
   - title: 'The Impact of Customer Loyalty on Restaurant Sanitation Grades and the Importance of Narrative Information:
       The Case of New York Restaurant Sanitation Grading System'
     coauthors: Min Gyung Kim and Anna Mattila
@@ -390,8 +370,6 @@ publications:
       our method outperforms previous models in predicting population and employment size at both the municipality
       and grid levels. Our method also demonstrates robust performance in districts with uneven development, suggesting
       its potential use in developing countries where reliable, fine-grained data is scarce.
-    figure: assets/img/pubs/p14.png
-    figure_caption: Administrative level structure and global availability of subnational statistics (Figure 1).
   - title: Learning Economic Indicators by Aggregating Multi-Level Geospatial Information
     coauthors: Sungwon Park, Sungwon Han, Donghyun Ahn, Jaeyeon Kim, Jeasurk Yang, Susang Lee, Seunghoon Hong, Jihee
       Kim, Sangyoon Park, and Meeyoung Cha
@@ -416,8 +394,6 @@ publications:
     links:
     - label: Published paper
       url: https://doi.org/10.1609/aaai.v36i11.21464
-    figure: assets/img/pubs/p15.jpg
-    figure_caption: 3D map of predicted hyperlocal economic development in South Korea (Figure 5).
   - title: Learning to Score Economic Development from Satellite Imagery
     coauthors: Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park, and
       Meeyoung Cha
@@ -440,8 +416,6 @@ publications:
       baseline development proxies (Spearman correlation of 0.851). This efficient method is interpretable and robust;
       we demonstrate how to apply our method to both developed (e.g., South Korea) and developing economies (e.g.,
       Vietnam and Malawi).
-    figure: assets/img/pubs/p16.jpg
-    figure_caption: Satellite images and development scores of one district, 2010–2018 (Figure 6).
 datasets:
 - title: 1 km grid-level data, 1918 and 1970 (residential settlement and rice)
   image: assets/img/data_1.jpg
