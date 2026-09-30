@@ -1,4 +1,5 @@
-"""Build the static site into _site/ from _data/*.yml and templates/. Run: python build.py"""
+"""Build the site into _site/ from _data/*.yml and templates/. Run: python build.py
+Pages: home, working papers, publications, data (one folder each); CV links to the PDF in profile.yml."""
 import datetime
 import pathlib
 import shutil
@@ -12,13 +13,25 @@ p = yaml.safe_load((ROOT / '_data/profile.yml').read_text(encoding='utf-8'))
 d = yaml.safe_load((ROOT / '_data/papers.yml').read_text(encoding='utf-8'))
 env = Environment(loader=FileSystemLoader(ROOT / 'templates'), autoescape=select_autoescape(['html']))
 today = datetime.date.today()
-common = {'p': p, 'd': d, 'year': today.year, 'updated': today.strftime('%B %Y')}
+cv = next(l['url'] for l in p['links'] if l['label'] == 'CV')
+
+PAGES = [  # key, menu label, folder ('' = home), template
+    ('home', 'Home', '', 'index.html'),
+    ('working-papers', 'Working Papers', 'working-papers/', 'working_papers.html'),
+    ('publications', 'Publications', 'publications/', 'publications.html'),
+    ('data', 'Data', 'data/', 'data.html'),
+]
+menu = [(k, lab, path) for k, lab, path, _ in PAGES] + [('cv', 'CV', cv)]
 
 shutil.rmtree(OUT, ignore_errors=True)
-(OUT / 'data').mkdir(parents=True)
+OUT.mkdir()
 shutil.copytree(ROOT / 'assets', OUT / 'assets')
-(OUT / 'index.html').write_text(env.get_template('index.html').render(root='./', active='home', **common), encoding='utf-8')
-(OUT / 'data/index.html').write_text(env.get_template('data.html').render(root='../', active='data', page_title='Data', **common),
-                                     encoding='utf-8')
+for key, label, path, tpl in PAGES:
+    root = '../' * path.count('/')
+    html = env.get_template(tpl).render(p=p, d=d, menu=menu, active=key, root=root or './',
+                                        page_title=None if key == 'home' else label,
+                                        year=today.year, updated=today.strftime('%B %Y'))
+    (OUT / path).mkdir(parents=True, exist_ok=True)
+    (OUT / path / 'index.html').write_text(html, encoding='utf-8')
 (OUT / '.nojekyll').write_text('')
 print('built', OUT)

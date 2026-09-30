@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% from "macros.html" import paper %}
+{% block content %}
+<h1 class="page-title">Working Papers</h1>
+<div class="list">
+  {% for x in d.working_papers %}{{ paper(x) }}{% endfor %}
+</div>
+{% endblock %}

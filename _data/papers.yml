@@ -48,7 +48,7 @@ publications:
         venue: "Kyungje Sahak: Review of Economic History (forthcoming)"
         links:
           - {label: Working paper, url: "https://www.dropbox.com/scl/fi/8t70gwvjtwbc4kljrtvr5/Yolo_map_paper_most_recent.pdf?rlkey=hinfb18h9hbxznsjgtwtih5vw&dl=1"}
-          - {label: Data, url: "/data/"}
+          - {label: Data, url: "../data/"}
       - title: "The effects of South Korean Protestantism on human capital and female empowerment, 1930–2010"
         coauthors: Yutaro Izumi and Sangyoon Park
         year: 2023
@@ -61,7 +61,7 @@ publications:
         award: 2019 Korean Economy Academic Research Award
         links:
           - {label: Paper, url: "https://doi.org/10.1016/j.jdeveco.2018.09.001"}
-          - {label: Data, url: "/data/"}
+          - {label: Data, url: "../data/"}
   - field: "Economics: Current Korean issues"
     items:
       - title: "To move or not to move? The impact of immigration influx on natives' neighborhood choices in Seoul, Korea"
