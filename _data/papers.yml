@@ -3,12 +3,12 @@
 #         links: list of {label, url}
 
 working_papers:
-  - title: "Neighbors After the Purge: Killings, Lineage, and Cooperation in Korean Villages, 1950-1972"
+  - title: "Neighbors After the Purge: Killings, Lineage, and Cooperation in Korean Villages, 1950–1972"
     year: 2026
     venue: SSRN Working Paper 7534558
     links:
       - {label: SSRN, url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7534558"}
-  - title: "Land Reform at the Parcel Level: A Spatial Reconstruction from a Korean Village, 1915-2019"
+  - title: "Land Reform at the Parcel Level: A Spatial Reconstruction from a Korean Village, 1915–2019"
     coauthors: Jongryong Park (Academy of Korean Studies)
   - title: "Revisiting the fertility puzzle: A dynamic spatial equilibrium approach"
     coauthors: Costas Arkolakis, J. H. Kwak, and J. Woo
@@ -49,7 +49,7 @@ publications:
         links:
           - {label: Working paper, url: "https://www.dropbox.com/scl/fi/8t70gwvjtwbc4kljrtvr5/Yolo_map_paper_most_recent.pdf?rlkey=hinfb18h9hbxznsjgtwtih5vw&dl=1"}
           - {label: Data, url: "/data/"}
-      - title: "The effects of South Korean Protestantism on human capital and female empowerment, 1930-2010"
+      - title: "The effects of South Korean Protestantism on human capital and female empowerment, 1930–2010"
         coauthors: Yutaro Izumi and Sangyoon Park
         year: 2023
         venue: Journal of Comparative Economics, 51(2)

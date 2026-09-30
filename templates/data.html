@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<section>
+  <h2 class="first">Data</h2>
+  <p class="note">Data sets built for my research. Please cite the paper listed with each data set.</p>
+  {% for x in d.datasets %}
+  <article class="paper">
+    <h4 class="ptitle">{{ x.title }}</h4>
+    <p class="desc">{{ x.description }}</p>
+    <p class="cite"><span class="label">Cite</span> {{ x.cite }}</p>
+    <p class="plinks">{% for l in x.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

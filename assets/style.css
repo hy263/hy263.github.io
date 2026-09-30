@@ -1,31 +1,82 @@
-:root { --ink: #222; --muted: #6b6b6b; --line: #e6e6e6; --accent: #1a4d8f; --bg: #fff; color-scheme: light; }
-@media (prefers-color-scheme: dark) {
-  :root { --ink: #e6e6e6; --muted: #9a9a9a; --line: #333; --accent: #8fb4ec; --bg: #161616; color-scheme: dark; }
+:root {
+  --ink: #1b1d21;
+  --text: #33373d;
+  --muted: #6a7078;
+  --faint: #9aa0a8;
+  --rule: #e4e6ea;
+  --accent: #173f6b;
+  --accent-soft: #eef3f9;
+  --bg: #ffffff;
+  --side: #f8f9fb;
+  --serif: "Source Serif 4", Georgia, "Noto Serif KR", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Helvetica, Arial, sans-serif;
+  color-scheme: light;
 }
-body { margin: 0; background: var(--bg); color: var(--ink);
-  font: 17px/1.6 "Source Serif 4", Georgia, "Noto Serif KR", "Times New Roman", serif; }
-.wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
-header.site .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; padding-block: 28px 0; }
-.brand { color: var(--ink); text-decoration: none; font-weight: 600; }
-nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
-nav a:first-child { margin-left: 0; }
-nav a:hover, a:hover { color: var(--accent); }
-main { padding-block: 40px 8px; }
-h1 { font-size: 28px; font-weight: 600; margin: 0; }
-h2 { font-size: 19px; font-weight: 600; margin: 48px 0 12px; }
-h3 { font-size: 15px; font-weight: 400; font-style: italic; color: var(--muted); margin: 22px 0 6px; }
-p { margin: 0 0 12px; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #eceef1; --text: #d3d6db; --muted: #a0a6ae; --faint: #7a8089; --rule: #2d3137;
+          --accent: #9cc0ea; --accent-soft: #1d2733; --bg: #121417; --side: #16191d; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15.5px/1.65 var(--sans); }
 a { color: var(--accent); text-decoration: none; }
-.position { margin: 2px 0 0; }
-.affil { margin: 0; color: var(--muted); font-size: 16px; }
-.tagline { font-style: italic; margin-top: 20px; }
-ul.papers { list-style: none; padding: 0; margin: 0; }
-li.paper { margin: 0 0 14px; }
-.ptitle { font-weight: 600; }
-.year, .meta, .venue, .award { color: var(--muted); font-size: 15.5px; }
-.venue { font-style: italic; }
-.links { font-size: 15px; }
-.links a + a::before { content: " · "; color: var(--muted); }
-.links.profile { margin-top: 16px; }
-ul.plain { padding-left: 18px; margin: 0; }
-footer { color: var(--muted); font-size: 13px; padding-block: 40px 48px; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.layout { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 310px minmax(0, 1fr); min-height: 100vh; }
+
+/* sidebar */
+.sidebar { border-right: 1px solid var(--rule); padding: 64px 36px 40px 24px;
+           position: sticky; top: 0; align-self: start; min-height: 100vh; }
+.name { display: block; font: 600 30px/1.15 var(--serif); color: var(--ink); letter-spacing: -.01em; margin-bottom: 14px; }
+.name:hover { text-decoration: none; }
+.position { margin: 0 0 6px; color: var(--ink); font-weight: 500; }
+.affil { margin: 0 0 4px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.email { margin: 14px 0 0; color: var(--muted); font-size: 14px; }
+.menu { margin: 32px 0 0; padding-top: 20px; border-top: 1px solid var(--rule); display: flex; flex-direction: column; gap: 6px; }
+.menu a { color: var(--ink); font-weight: 500; font-size: 15px; }
+.menu a.on { color: var(--accent); }
+.profiles { list-style: none; margin: 20px 0 0; padding: 20px 0 0; border-top: 1px solid var(--rule); font-size: 14px; }
+.profiles li { margin: 0 0 4px; }
+.profiles a { color: var(--muted); }
+.profiles a:hover { color: var(--accent); }
+
+/* main */
+.content { padding: 64px 24px 40px 56px; max-width: 810px; }
+.lede { font: 400 21px/1.45 var(--serif); color: var(--ink); margin: 0 0 18px; }
+.about p { margin: 0 0 14px; }
+.label { display: block; font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .09em; color: var(--faint); margin-bottom: 2px; }
+.interests { margin-top: 18px; }
+h2 { font: 600 13px/1 var(--sans); text-transform: uppercase; letter-spacing: .12em; color: var(--accent);
+     margin: 56px 0 22px; padding-bottom: 10px; border-bottom: 1px solid var(--rule); }
+h2.first { margin-top: 4px; }
+h3 { font: 600 17px/1.3 var(--serif); color: var(--ink); margin: 30px 0 12px; }
+section[id] { scroll-margin-top: 24px; }
+
+.paper { margin: 0 0 20px; }
+.ptitle { font: 600 16.5px/1.4 var(--serif); color: var(--ink); margin: 0 0 3px; }
+.ptitle a { color: var(--ink); }
+.ptitle a:hover { color: var(--accent); text-decoration: none; }
+.authors, .venue, .desc, .cite { margin: 0; font-size: 14.5px; color: var(--muted); }
+.venue em { color: var(--text); }
+.award { display: inline-block; margin: 6px 0 0; font-size: 12.5px; font-weight: 500; color: var(--accent);
+         background: var(--accent-soft); border-radius: 3px; padding: 1px 8px; }
+.plinks { margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.plinks a { font-size: 12px; font-weight: 500; letter-spacing: .02em; color: var(--accent);
+            border: 1px solid var(--rule); border-radius: 3px; padding: 1px 8px; }
+.plinks a:hover { border-color: var(--accent); text-decoration: none; }
+.cite { margin-top: 6px; }
+.cite .label { display: inline; margin-right: 6px; }
+.note { color: var(--muted); margin: 0 0 24px; }
+.edu { margin: 0; padding-left: 18px; }
+.edu li { margin-bottom: 4px; }
+footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 12.5px; color: var(--faint); }
+
+/* narrow screens */
+@media (max-width: 860px) {
+  .layout { display: block; }
+  .sidebar { position: static; min-height: 0; border-right: 0; border-bottom: 1px solid var(--rule); padding: 32px 20px 24px; }
+  .menu { flex-direction: row; gap: 18px; margin-top: 20px; }
+  .profiles { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+  .content { padding: 32px 20px 32px; }
+  .name { font-size: 26px; }
+}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% from "macros.html" import paper %}
+{% block content %}
+<section class="about">
+  <p class="lede">{{ p.tagline }}</p>
+  <p>{{ p.bio }}</p>
+  <p class="interests"><span class="label">Research interests</span> {{ p.interests }}</p>
+</section>
+
+<section id="research">
+  <h2>Working Papers</h2>
+  {% for x in d.working_papers %}{{ paper(x) }}{% endfor %}
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  {% for g in d.publications %}
+  <h3>{{ g.field }}</h3>
+  {% for x in g['items'] %}{{ paper(x) }}{% endfor %}
+  {% endfor %}
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul class="edu">{% for e in p.education %}<li>{{ e }}</li>{% endfor %}</ul>
+</section>
+{% endblock %}
