@@ -1,1 +1,7 @@
 _site/
+cv/*.aux
+cv/*.log
+cv/*.fls
+cv/*.fdb_latexmk
+cv/*.out
+cv/cv.pdf

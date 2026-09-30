@@ -1,0 +1,316 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+%
+% Build: latexmk -pdf cv.tex, then copy cv.pdf to ../assets/cv.pdf (see README).
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{hanging}
+\usepackage{parskip}
+
+% Palatino with old style figures
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+\def\name{Hyunjoo Yang}
+
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, Korea},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.15in,
+  bottom=0.95in
+}
+
+\pagestyle{myheadings}
+\markright{  \name: Curriculum Vitae }
+\thispagestyle{empty}
+
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\large\bf}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+\setlength\parindent{0em}
+
+% Lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+\centerline{\huge \bf \name}
+
+\vspace{0.2in}
+
+\begin{minipage}{0.48\linewidth}
+School of Economics \\
+Sogang University \\
+Mapo-gu Baekbeom-ro 35 \\
+Seoul, South Korea 04107
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email: & \href{mailto:hyang@sogang.ac.kr}{\tt hyang@sogang.ac.kr} \\
+    Homepage: & \href{https://hy263.github.io}{\tt hy263.github.io} \\
+  \end{tabular}
+\end{minipage}
+
+\vspace{4mm}
+\textit{Last updated: \today}
+
+\section*{Research}
+\begin{itemize}
+	\item Development and growth issues of South Korea
+\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. in Economics, Brown University 2016.
+  \item M.Sc. in Economics, London School of Economics 2010.
+  \item B.A. in Trade and Commerce, Incheon National University 2008.
+\end{itemize}
+
+\section*{Appointments}
+\begin{itemize}
+\item \textit{Aug. 2025 -  present}: Deputy Center Director, Research Center for Big Data on Korean Economy, Sogang University
+\item \textit{Sep. 2021 -  present}: Associate professor, College of Economics, Sogang University
+\item \textit{Jan. 2022 - present}: Affiliated faculty, Graduate School of Artificial Intelligence, Sogang University
+\item \textit{Sep. 2023 -  Aug. 2024}: Visiting scholar, Department of Economics, Brown University
+\item \textit{Sep. 2023}: Visiting scholar, Cowles Foundation, Yale University
+\item \textit{Mar. 2020 -  Aug. 2021}: Assistant professor, College of Economics, Sogang University
+\item \textit{Mar. 2019 - Aug. 2023}: Visiting professor, Data Science Group, Institute of Basic Science
+\item \textit{Sep. 2017 - Feb. 2020}: Assistant professor, School of Northeast Asian Studies, Incheon National University, South Korea
+\item \textit{Sep. 2016 - Aug. 2017}: Associate fellow, Korea Development Institute, South Korea
+\item \textit{May 2013 - July 2013}: Short-term consultant, World Bank
+\item \textit{June 2009 - Aug. 2009}: Research scholar, International Crops Research Institute for the Semi-Arid Tropics, India
+\end{itemize}
+
+\section*{Publications - Economics: Korean History}
+
+\begin{itemize}
+
+    \item Inside the reform: Patterns of ex-ante disposals of farmland in Anryong-myeon, Suwon, as seen through the Jise Myeonggijang, \textbf{2026}, \textbf{Korean Culture} (forthcoming; in Korean) \\ (\textit{with Jongryong Park})
+\vspace{3mm}
+
+    \item Measuring historical settlement and agricultural structure from topographic maps: An object detection approach for South Korea, 1918 and 1970, \textbf{2026}, \textbf{Kyungje Sahak: Review of Economic History} (forthcoming) \\ (\textit{with Izzat Hassan Bin Halim and Jeongeun Kim})
+\vspace{3mm}
+
+    \item The effects of South Korean Protestantism on human capital and female empowerment, 1930–2010, \textbf{2023}, \textbf{Journal of Comparative Economics}, 51(2)\\ (\textit{with Yutaro Izumi and Sangyoon Park})
+\vspace{3mm}
+
+		\item Family clans and public goods: Evidence from the New Village Beautification Project in South Korea, \textbf{2019}, \textbf{Journal of Development Economics}, 136 \\
+		- \textit{2019 Korean Economy Academic Research Award, Korean Economic Association}
+\end{itemize}
+
+\section*{Publications - Economics: Current Korean Issues}
+
+\begin{itemize}
+
+	\item To move or not to move? The impact of immigration influx on natives' neighborhood choices in Seoul, Korea, \textbf{2022},  \textbf{Journal of Economic Geography}, 22(4) \\
+	(\textit{with Joseph Han, Jinwook Hur and Jongkwan Lee})
+    	\vspace{3mm}
+
+	\item Social insurance in an aging population: Impacts of a government transfer program in South Korea, \textbf{2021}, \textbf{Economic Development and Cultural Change}, 69(4) \\ (\textit{with Kanghyock Koh})
+	\vspace{3mm}
+
+	\item Is there regional inequality in medical accessibility of the severely injured? Application of driving time data in South Korea, \textbf{2020},  \textbf{Journal of Market Economy}, 49(1) \\
+	(\textit{with Elliot Kang, Min Gyung Kim and Kanghyock Koh})
+\end{itemize}
+
+\section*{Publications - Political Science}
+
+\begin{itemize}
+
+		\item In strongman we trust: The political legacy of the New Village Movement in South Korea, \textbf{2023}, \textbf{American Journal of Political Science}, 67(4)\\
+		\textit{(with Jean Hong and Sunkyoung Park)} \\
+  - \textit{2023 Best Article Prize in the Study of Democracy \& Autocracy, the American Political Science Association}
+
+\end{itemize}
+
+\section*{Publications - Multidisciplinary Sciences}
+
+\begin{itemize}
+
+		\item A human-machine collaborative approach measures economic development using satellite imagery, \textbf{2023}, \textbf{Nature Communications} \\
+		\textit{(with Donghyun Ahn, Jeasurk Yang,  Meeyoung Cha, Jihee Kim, Sangyoon Park, Sungwon Han, Eunji Lee, Susang Lee and Sungwon Park)}
+
+ \vspace{3mm}
+
+    \item Disaster assessment using computer vision and satellite imagery: Applications in detecting water-related building damages, \textbf{2022}, \textbf{Frontiers in Environmental Science} \\
+    (\textit{with Danu Kim, Jeongkyung Won, Eunji Lee, Kyung Ryul Park, Jihee Kim, Sangyoon Park and Meeyoung Cha})
+
+\end{itemize}
+
+\section*{Publications - Hospitality and Tourism}
+
+	\begin{itemize}
+
+    \item Effects of visual cues and social density on beverage consumption:
+    A Field experiment in a bar, \textbf{2022}, \textbf{Cornell Hospitality Quarterly}, 63(2) \\
+    (\textit{with Min Gyung Kim and Anna Mattila})
+
+	\vspace{3mm}
+
+	\item Persistent effects of mega-events on local economies: An application of administrative big data, \textbf{2021}, \textbf{Asia Pacific Journal of Tourism Research}, 26(12) \\ (\textit{with Min Gyung Kim})
+	\vspace{3mm}
+
+	\item The impact of customer loyalty on restaurant sanitation grades and the importance of narrative information: The case of New York Restaurant Sanitation Grading System, \textbf{2018}, \textbf{Cornell Hospitality Quarterly}, 59(3)\\
+	(\textit{with Min Gyung Kim and Anna Mattila})
+	\end{itemize}
+
+\section*{Computer Science Conference Proceedings}
+
+\begin{itemize}
+
+    \item Fine-Grained Socioeconomic Prediction from Satellite Images with Distributional Adjustment, \textbf{2023}, \textbf{CIKM: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management} \\ (\textit{with Donghyun Ahn, Minhyuk Song, Seungeon Lee, Yubin Choi, Jihee Kim, Sangyoon Park, Meeyoung Cha})
+
+    \vspace{3mm}
+
+    \item Learning economic indicators by aggregating multi-level geospatial information, \textbf{2022}, \textbf{AAAI: Proceedings of the Association for the Advancement of Artificial Intelligence Conference}\\
+    (\textit{with Sungwon Park, Donghyun Ahn, Sungwon Han, Eunji Lee, Danu Kim, Jeasurk Yang, Susang Lee, Sangyoon Park, Jihee Kim and Meeyoung Cha})
+
+   	\vspace{3mm}
+
+   \item Learning to score economic development from satellite imagery, \textbf{2020}, \textbf{KDD: Proceedings of the  Association for Computing Machinery SIGKDD Conference on Knowledge Discovery and Data Mining}\\
+   (\textit{with Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park and Meeyoung Cha})
+\end{itemize}
+
+\section*{Working Papers}
+
+	\begin{itemize}
+
+        \item Neighbors after the purge: Killings, lineage, and cooperation in Korean villages, 1950–1972, SSRN Working Paper 7534558
+        \vspace{3mm}
+
+        \item Zoning by fire: State violence and the long-run geography of Jeju, 1948–2019, \textit{with Kyeongsoon Moon}
+        \vspace{3mm}
+
+        \item Deworming, reinfection, and village conditions: Evidence from Korean primary schools, 1971–1977, \textit{with Jungho Kim}
+        \vspace{3mm}
+
+        \item Land reform at the parcel level: A spatial reconstruction from a Korean village, 1915–2019, \textit{with Jongryong Park}
+        \vspace{3mm}
+
+        \item Revisiting the fertility puzzle: A dynamic spatial equilibrium approach, \textit{with Costas Arkolakis, Jun Hee Kwak and Jaemin Woo}
+        \vspace{3mm}
+
+        \item Shadow of authoritarian patronage: Village leaders and elections in democratizing South Korea, \textit{with Jean Hong and Sunkyoung Park}
+        \vspace{3mm}
+
+        \item Gambling for goals, \textit{with Costas Arkolakis, Spencer Y. Kwon, Dominic Russel and Claire Shi}
+        \vspace{3mm}
+
+	\item Using maps to predict economic activity, \textit{with Imryoung Jeong}
+        \vspace{3mm}
+
+		\item Land reform, entrepreneurship, and economic growth in South Korea, \textit{with Jongryong Park}
+        \vspace{3mm}
+
+        \item Teaching machines to measure economic activities from satellite images: Challenges and solutions, \textit{with Sungwon Han, Donghyun Ahn, Sungwon Park, Jeasurk Yang, Susang Lee, Jihee Kim, Sangyoon Park and Meeyoung Cha}
+        \vspace{3mm}
+
+		\item The effect of war on local collective action: Evidence from the Korean War
+        \vspace{3mm}
+
+	\item Did high speed trains promote local economic activities?: Evidence from the introduction of Korea Train Express, \textit{with Elliot Kang and Kanghyock Koh}
+        \vspace{3mm}
+
+		\item Village leadership and rural development in South Korea, \textit{with Taejong Kim and Sunjin Kim}
+	\end{itemize}
+
+\section*{Professional Activities}
+\begin{itemize}
+
+	\item Chair of the graduate program, College of Economics, Sogang University (2022-2023)
+	\item Recruiting Committee for tenure-track faculty, College of Economics, Sogang University (2021-2022)
+	\item Chair of Korea Trade and Commerce Major, School of Northeast Asian Studies, Incheon National University (2019-2020)
+	\item Commissioned Admission Officer, Incheon National University (2019-2020)
+	\item Hiring Committee for tenure and non-tenure track faculty, School of Northeast Asian Studies, Incheon National University (2019)
+	\item Admissions Committee, Korean Trade and Commerce Major, School of Northeast Asian Studies, Incheon National University (2018 -- 2019)
+	\item Admissions Committee, Northeast Asia Trade and Commerce Major, School of Northeast Asian Studies, Incheon National University (2017 -- 2019)
+	\item Referee for \textit{American Journal of Political Science, European Journal of Development Research, Expolorations in Economic History, International Economic Journal, International Journal of Empirical Economics, Journal of Comparative Economics, Journal of Cultural Economics, Journal of Development Effectiveness, Journal of Economic Development, Journal of Economic Growth, Journal of Economic Theory and Econometrics, Journal of Market Economy, Journal of Poverty Alleviation and International Development, Journal of Regional Science, Journal of Urban Economics, KDI Journal of Economic Policy, Korean Economic Forum, Korean Economic Review, Korean Journal of Public Finance, PLOS One, Oxford Bulletin of Economics and Statistics, Oxford Economic Papers, Quarterly Journal of Economics, Review of Economics and Statistics, Seoul Journal of Economics, World Development}
+\end{itemize}
+
+\section*{Conference and Seminar Presentations}
+\begin{itemize}
+\item 2026: Yonsei University, KER International Conference (scheduled)
+\item 2025: Ajou University, Asian Cliometrics Workshop, Incheon National University, Korean Economic Review (KER) International Conference, Seoul National University
+\item 2024: Brown University Economics Department Growth Breakfast, Florida State University Economics Department Applied Micro Seminar
+\item 2023: Brown University Economics Department Growth Breakfast; Chonnam National University; Harvard University International Conference on the Tools of the Trade: The Way Forward; Korea Advanced Institute of Science and Technology; Korea Institute for International Economic Policy; Korea Institute of Public Finance; Korea’s Allied Economic Associations Annual Meeting; Soongsil University; Yale University Data Intensive Social Science Center Workshop
+\item 2022: Asia Meeting of Econometric Society; IBS Winter School on AI-Boosted Basic Science; ITC and International Development Forum; Kobe University Rokko Forum; Korea University CIS-GSIS Global Inaugural Seminar; Korea's Allied Economic Associations Annual Meeting (Korean Economic History Society session); MIT Center for Real Estate Workshop on Machine Learning and Social Science; Satellite Application Conference; Seoul National University H-Trio Seminar; SKKU Economics Department Seminar; SNU-UC San Diego Joint Webinar; The 10th Anniversity Conference of K-Developedia; The Korean Historical Association Conference
+\item 2021: KAEA Applied Micro Seminar; KAIST AI + X Forum, Meet the Data Scientists; Korea Foundation for Advanced Studies; Korea's Allied Economic Associations Annual Meeting; Korean Economic Association North Korean Economy Policy Forum; Kyunghee University Economics Department Seminar
+\item 2020: ASSA San Diego; Econometric Society  World Congress; Hitotsubashi University IER; KER International Conference; Korea University Economics Department Seminar; Osaka University ISER; Seoul National University
+\item 2019: Hanyang University; History and Development Network Monthly Meeting; Institute for Basic Science; KDI School of Public Policy and Management; Korea Academic Society of Industrial Organization Monthly Meeting; Korea Aerospace Research Institute; Korea Economic History Society Meeting; Korea University Institute of Governmental Studies; Korea University Economics Department Seminar; Seoul National University Workshop on Experimental Economics and Development Economics; Sogang University; University of Seoul; University of Tokyo; Yonsei University
+\vspace{2mm}
+\item 2018: Asian and Australasian Society of Labour Economics; Asian Development Bank Institute; Asian Historical Economics Conference; Asian Real Estate Society Annual Conference; Association of Korean Economic Studies International Conference; Hong Kong University of Science and Technology; International Symposium on Quantitative History; Korean Association of Public Finance Monthly seminar; Korean Economic Meetings of Macroeconomics; Korean Economic Association International Conference; National Graduate Institute for Policy Studies; Royal Economic Society Conference;  University of Hong Kong
+\vspace{2mm}
+\item 2017: Asian and Australasian Society of Labour Economics; Asian Meeting of the Econometric Society; Incheon National University; KDI School of Public Policy and Management; Korea Academic Society of Industrial Organization Fall Meeting; Korea Development Institute; Korea Economic History Society Meeting; Korea's Allied Economic Associations Annual Meeting; Korean Labor Economic Association Monthly Seminar; Korean Resource Economics Association Monthly Seminar; Pusan National University;  Seoul National University Applied Micro Workshop; Sogang University; Western Economics Association International Conference; Yonsei University at Wonju
+\vspace{2mm}
+\item 2016: Bank of Korea; KDI School of Public Policy and Management; Korea Development Institute; Korea Economic Research Institute; Korea University; Seoul National University; University of Hawaii Asian Studies Graduate Student Conference; Western Economics Association International Conference
+\vspace{2mm}
+\item 2013-2015: Brown University, Department of Economics, Macroeconomics Seminar; Macroeconomics Lunch Seminar; Urban Lunch Seminar
+\end{itemize}
+
+\section*{Grants}
+
+\begin{itemize}
+    \item 2024-2027: National Research Foundation of Korea Research Grant ``Household debt and risk-taking: Analysis using Korean big data'' (with Costas Arkolakis, Yale Univerisity and Spencer Kwon, Brown Univerisity)
+    \item 2023-2025: NRF-JSPS International Cooperation Grant  (with Junichi Yamasaki, Kobe University and Ken Miura, Kyoto University)
+    \item 2022-2023: Sogang University's Joint Graduate Student Seminar Grants for 3 Universities (Sogang, Ewha, and Yonsei). Co-organizers: Hee-Seung Yang (Yonsei) and Jongkhwan Lee (Ehwa)
+    \item 2022: AI Data Voucher Grant by Korea Data Agency (Social Issue Track)
+    \item 2022-2023: International Collaborator for the MIT International Science and Technology Initiatives Global Seed Funds, ``Leveraging US Damage Data to Estimate AI Based Hurricane Damage'' (PI: Siqi Zheng, MIT)
+    \item 2022-2024: National IT Industry Promotion Agency Sponsorship for GPU Servers for Machine Learning Projects
+    \item 2022-2023: Co-investigator for UK and South Korea Social Science, Arts and Humanities Connections Grant by the 	Economic and Social Research Council, United Kingdom, ``Deciphering the Miracle on the Han: Lessons for the World on How South Korea Escaped Poverty and Transformed its Economy'' (PI: Robin Burgess, LSE)
+    \item 2022-2023: Co-investigator for Structural Transformation and Economic Growth (STEG) Small Research Grant by the Foreign, Commonwealth, and Development Office, United Kingdom, ``Deciphering the Miracle on the Han: Lessons for the World on How South Korea Escaped Poverty and Transformed its Economy'' (PI: Robin Burgess, LSE)
+    \item 2022-2023: European Space Agency's Network of Resources Sponsorship for Access to High-Resolution Satellite Datasets ``Predicting Poverty Using Satellite Images and Machine Learning''
+    \item 2021-2024: National Research Foundation of Korea Research Grant \#2021013631 ``Multidisciplinary Study of Korean Economic History Using Machine Learning: Case of 1940-50 Korean Land Reform''
+	\item 2021-2024: National Research Foundation of Korea Research Grant \#2021069641 ``Predicting Regional Income and Wealth Inequality of South Korea for the Last 100 years Using Geospatial Data and Machine Learning''
+	\item 2021-2023: Nam Duck Woo Economic Research Institute Long-term Research Grant
+	\item 2020-2023: Sogang University New Faculty Research Fund
+	\item 2018-2019: KDI School Research Grant for Empirical Research in Korean Economic Development History
+   \item 2018-2019: Incheon National University Long-term Research Fund
+  	\item 2017-2018: KDI School Research Grant for Empirical Research in Korean Economic Development History (with Taejong Kim and Sunjin Kim)
+	\item 2017-2018: Incheon National University New Faculty Research Fund
+\end{itemize}
+
+\section*{Fellowships and Awards}
+
+\begin{itemize}
+    \item 2024-2025: Pyeongsan Research Fellow
+    \item 2023: Best Article Prize in the Study of Democracy \& Autocracy, the American Political Science Association
+    \item 2022: Research Excellence Award, Sogang University
+    \item 2021: Teaching Excellence Award for Large Lecture Classes, College of Economics, Sogang University
+	\item 2020: Korean Economy Academic Research Award, the Korean Economic Association
+	\item 2020: Academic Research Award, Incheon National University
+	\item 2016: Best Paper Award in Korean Studies, University of Hawaii at Manoa, School of Pacific and Asian Studies, Graduate Student Conference
+	\item 2015-2016: Brown University Dissertation Completion Proposal Award
+	\item 2010-2011: Brown University Economics Department Doctoral Fellowship
+\end{itemize}
+
+\end{document}
