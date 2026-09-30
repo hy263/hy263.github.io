@@ -72,8 +72,19 @@ working_papers:
     finds no credible effect.'
 - title: 'Land Reform at the Parcel Level: A Spatial Reconstruction from a Korean Village, 1915–2019'
   coauthors: Jongryong Park
-- title: 'Revisiting the Fertility Puzzle: A Dynamic Spatial Equilibrium Approach'
+- title: 'The Geography of Fertility: Theory and Evidence from Korea'
   coauthors: Costas Arkolakis, Jun Hee Kwak, and Jaemin Woo
+  abstract: We study fertility in a dynamic spatial equilibrium model with endogenous location and residential choices,
+    alongside investments in children's education. We estimate the model using near-universal administrative microdata
+    from South Korea, drawing on census records, credit bureau data linked to mobile phone mobility records, and
+    government administrative sources. Our estimates indicate that high commuting and housing costs, combined with
+    intensive education investments in large cities, where the amenity of living is large, substantially reduce
+    fertility. We conduct a decomposition exercise to explain the sharp decline in South Korean fertility over the
+    past decade, finding that rising education and childcare costs play a significant role. Finally, we conduct
+    a series of counterfactual exercises considering place-based policies to reduce commuting costs, increase housing
+    supply, or lower education costs. We find that policies focusing exclusively on large cities, such as Seoul,
+    may have the opposite effect on fertility than intended due to spatial sorting. However, a combination of nationwide
+    policies targeting the fertility margin directly can boost fertility significantly.
 - title: 'Shadow of Authoritarian Patronage: Village Leaders and Elections in Democratizing South Korea'
   coauthors: Jean Hong and Sunkyoung Park
 - title: Gambling for Goals
@@ -106,7 +117,6 @@ working_papers:
   links:
   - label: PDF
     url: https://drive.google.com/file/d/1-UBIuWIC-79R5irgJIg7XYO-YFRLLHIz/view?usp=sharing
-- title: 'The Effect of War on Local Collective Action: Evidence from the Korean War'
 - title: Did High-Speed Trains Promote Local Economic Activities? Evidence from the Introduction of Korea Train
     Express
   coauthors: Elliot Kang and Kanghyock Koh
