@@ -62,6 +62,9 @@ h2 { font: 600 12.5px/1 var(--sans); text-transform: uppercase; letter-spacing: 
 
 /* entries */
 .paper { margin: 0 0 22px; }
+.prev { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+.prev a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.prev a:hover { color: var(--accent); }
 .ptitle { font: 600 17px/1.4 var(--serif); color: var(--ink); margin: 0 0 3px; }
 .ptitle a { color: var(--ink); }
 .ptitle a:hover { color: var(--accent); text-decoration: none; }

@@ -6,6 +6,7 @@
   {% if x.year and not x.venue %}{% set _ = meta.append(x.year|string) %}{% endif %}
   {% if meta %}<p class="authors">{{ meta|join(' · ') }}</p>{% endif %}
   {% if x.venue %}<p class="venue"><em>{{ x.venue }}</em>{% if x.year %}, {{ x.year }}{% endif %}{% if x.note %} · {{ x.note }}{% endif %}</p>{% elif x.note %}<p class="venue">{{ x.note }}</p>{% endif %}
+  {% if x.previously %}<p class="prev">Previously circulated as “<a href="{{ x.previously.url }}">{{ x.previously.title }}</a>”</p>{% endif %}
   {% if x.award %}<p class="award">{{ x.award }}</p>{% endif %}
   {% if x.abstract or x.links %}
   <div class="pfoot">
