@@ -131,11 +131,18 @@ h2 { font: 600 12.5px/1 var(--sans); text-transform: uppercase; letter-spacing: 
 .dfig img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 3px; background: #fff; }
 .dfig figcaption { margin-top: 8px; font-size: 13px; line-height: 1.45; color: var(--muted); }
 .dtext .ptitle { margin-top: 0; }
+.dcompare { grid-column: 1 / -1; margin: 4px 0 0; }
+.dcompare .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 640px; }
+.dcompare img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 3px; }
+.dcompare .plabel { display: block; margin-top: 6px; font-size: 13px; font-weight: 500; color: var(--ink); }
+.dcompare figcaption { margin-top: 10px; font-size: 13px; line-height: 1.45; color: var(--muted); max-width: 65ch; }
 
 /* narrow screens */
 @media (max-width: 820px) {
   .dataset { display: block; }
   .dfig { margin-bottom: 18px; max-width: 480px; }
+  .dcompare { margin-top: 20px; }
+  .dcompare .pair { gap: 10px; }
   .home { display: block; }
   .home-id { padding-bottom: 24px; margin-bottom: 28px; border-bottom: 1px solid var(--rule); }
   .profiles { display: flex; flex-wrap: wrap; gap: 4px 18px; border-top: 0; padding-top: 0; margin-top: 14px; }

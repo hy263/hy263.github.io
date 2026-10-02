@@ -531,6 +531,14 @@ datasets:
 - title: 1 km grid-level data, 1918 and 1970 (residential settlement and rice)
   image: assets/img/data_1.jpg
   caption: Houses detected on a 1918 topographic map (boxes).
+  compare:
+    caption: 'Labeling example on a 1918 sheet. Green: individual house symbols. Blue: built-up blocks, drawn as hatched or
+      solid areas on the map.'
+    images:
+    - src: assets/img/data_1_map.jpg
+      label: 1918 map
+    - src: assets/img/data_1_labels.jpg
+      label: Labels
   description: Residential settlement and rice cultivation on a 1 km grid for South Korea, measured from historical
     topographic maps.
   cite: 'Yang, Hyunjoo, Izzat Hassan Bin Halim, and Jeongeun Kim (2026). Measuring Historical Settlement and Agricultural

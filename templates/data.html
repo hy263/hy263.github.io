@@ -17,6 +17,16 @@
       <p class="cite"><span class="label">Cite</span> {{ x.cite }}</p>
       <p class="plinks">{% for l in x.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
     </div>
+    {% if x.compare %}
+    <figure class="dcompare">
+      <div class="pair">
+        {% for c in x.compare.images %}
+        <div><img src="{{ root }}{{ c.src }}" alt="{{ c.label }}" loading="lazy"><span class="plabel">{{ c.label }}</span></div>
+        {% endfor %}
+      </div>
+      {% if x.compare.caption %}<figcaption>{{ x.compare.caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
   </article>
   {% endfor %}
 </div>
