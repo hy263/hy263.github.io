@@ -17,7 +17,7 @@ today = datetime.date.today()
 cv = next(l['url'] for l in p['links'] if l['label'] == 'CV')
 
 PAGES = [  # key, menu label, folder ('' = home), template
-    ('home', 'Home', '', 'index.html'),
+    ('home', 'Main', '', 'index.html'),
     ('working-papers', 'Working Papers', 'working-papers/', 'working_papers.html'),
     ('publications', 'Publications', 'publications/', 'publications.html'),
     ('data', 'Data', 'data/', 'data.html'),
