@@ -56,7 +56,7 @@ for i, x in enumerate(d['working_papers']):
         L.append(r'  \vspace{3mm}')
 L += [r'\end{itemize}', '']
 for g in d['publications']:
-    name = g['field'] if g['field'].startswith('Computer Science') else 'Publications - ' + g['field']
+    name = g['field'] if g['field'].startswith('Computer Science') or g['field'] == 'Book' else 'Publications - ' + g['field']
     L += [r'\section*{' + tex(name) + '}', '', r'\begin{itemize}']
     for i, x in enumerate(g['items']):
         line = r'  \item ' + tex(x['title']) + ', ' + citation(x) + r' \\ \textit{' + authors(x['authors']) + '}'

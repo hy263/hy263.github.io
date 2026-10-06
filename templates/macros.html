@@ -4,7 +4,7 @@
 {% set title_url = pdf_url or x.doi_url or (x.links[0].url if x.links and x.links[0].label != 'Data' else None) %}
 <article class="paper{% if x.figure %} has-fig{% endif %}">
 <div class="ptext">
-  <h4 class="ptitle">{% if title_url %}<a href="{{ title_url }}">{{ x.title }}</a>{% else %}{{ x.title }}{% endif %}</h4>
+  <h4 class="ptitle">{% if title_url %}<a href="{{ title_url }}">{{ x.title }}</a>{% else %}{{ x.title }}{% endif %}{% if x.title_ko %} <span lang="ko">({{ x.title_ko }})</span>{% endif %}</h4>
   {#- all authors in published order; the site owner in bold -#}
   {% if x.authors %}<p class="authors">
     {%- for a in x.authors -%}

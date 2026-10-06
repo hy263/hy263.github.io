@@ -527,6 +527,18 @@ publications:
       baseline development proxies (Spearman correlation of 0.851). This efficient method is interpretable and robust;
       we demonstrate how to apply our method to both developed (e.g., South Korea) and developing economies (e.g.,
       Vietnam and Malawi).
+- field: Book
+  items:
+  - title: Saemaul Undong [The New Village Movement]
+    title_ko: 새마을운동
+    authors:
+    - Hyunjoo Yang
+    journal: Haenam (해남)
+    year: 2026
+    note: In Korean; Korean Economy Citizens' Lectures 25; ISBN 978-89-6238-825-1
+    links:
+    - label: Book page
+      url: https://product.kyobobook.co.kr/detail/S000220097677
 datasets:
 - title: 1 km grid-level data, 1918 and 1970 (residential settlement and rice)
   image: assets/img/data_1.jpg
