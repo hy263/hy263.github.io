@@ -169,8 +169,21 @@ publications:
     journal: International Journal of Empirical Economics
     year: 2026
     note: Forthcoming
-    abstract: Using parcel-level records for one Korean village, we show that large owners' holdings were already
-      scattered before the 1950 land reform, so there were few large blocks of land for the reform to break up.
+    abstract: Land reforms are among the largest asset redistributions that governments undertake, but their long-run
+      consequences are rarely traced at the level of the individual parcel. We link the mapped parcels of one Korean
+      village through the 1950 land reform, using a colonial tax ledger, cadastral maps, the modern cadastral register,
+      and geocoded business-license records that together span a century. The analysis is descriptive. We observe
+      the 1945 ledger owner class of each classified plot but not its statutory reform path, so we report associations
+      with owner class and not effects of redistribution. Our main finding concerns spatial structure before the
+      reform. The mapped holdings of the village's large owners were already scattered before 1950. There were few
+      large blocks of land for the reform to break up. Complementary comparisons show small adjusted differences in
+      later official assessed values, while estimates for commercial activity and land-use conversion remain uncertain.
+      Recorded ownership events provide partial evidence on the intervening decades, including preservation entries
+      clustered in 1965, but they cannot establish when all parcels acquired clear title. The parcel-level reconstruction
+      tests an assumption about pre-reform spatial structure that ownership totals alone cannot test.
+    links:
+    - label: Working paper
+      url: ../assets/papers/park_yang_ijee_aam.pdf
   - title: 'Inside the Reform: Patterns of Ex-Ante Disposals of Farmland in Anryong-myeon, Suwon, as Seen Through
       the Jise Myeonggijang'
     authors:
