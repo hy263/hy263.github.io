@@ -79,10 +79,6 @@ working_papers:
     with higher baseline infection do not produce relatively more notable people, as listed in Korean Wikipedia,
     in the cohorts that were in school during 1971–77. A second test with credit-bureau data on a 1 km grid also
     finds no credible effect.'
-- title: 'Land Reform at the Parcel Level: A Spatial Reconstruction from a Korean Village, 1915–2019'
-  authors:
-  - Jongryong Park
-  - Hyunjoo Yang
 - title: 'The Geography of Fertility: Theory and Evidence from Korea'
   authors:
   - Costas Arkolakis
@@ -166,6 +162,15 @@ working_papers:
 publications:
 - field: 'Economics: Korean History'
   items:
+  - title: 'Land Reform at the Parcel Level: A Spatial Reconstruction from a Korean Village, 1915–2023'
+    authors:
+    - Jongryong Park
+    - Hyunjoo Yang
+    journal: International Journal of Empirical Economics
+    year: 2026
+    note: Forthcoming
+    abstract: Using parcel-level records for one Korean village, we show that large owners' holdings were already
+      scattered before the 1950 land reform, so there were few large blocks of land for the reform to break up.
   - title: 'Inside the Reform: Patterns of Ex-Ante Disposals of Farmland in Anryong-myeon, Suwon, as Seen Through
       the Jise Myeonggijang'
     authors:
