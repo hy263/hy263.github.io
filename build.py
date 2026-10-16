@@ -1,5 +1,5 @@
 """Build the site into _site/ from _data/*.yml and templates/. Run: python build.py
-Pages: home, working papers, publications, data, CV (one folder each). The CV page shows the PDF in profile.yml
+Pages: home, working papers, publications, data, projects, CV (one folder each). The CV page shows the PDF in profile.yml
 with a download button."""
 import datetime
 import pathlib
@@ -12,6 +12,8 @@ ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / '_site'
 p = yaml.safe_load((ROOT / '_data/profile.yml').read_text(encoding='utf-8'))
 d = yaml.safe_load((ROOT / '_data/papers.yml').read_text(encoding='utf-8'))
+pj = yaml.safe_load((ROOT / '_data/projects.yml').read_text(encoding='utf-8'))
+d['projects'], d['projects_intro'] = pj['projects'], pj.get('intro')
 env = Environment(loader=FileSystemLoader(ROOT / 'templates'), autoescape=select_autoescape(['html']))
 today = datetime.date.today()
 cv = next(l['url'] for l in p['links'] if l['label'] == 'CV')
@@ -21,6 +23,7 @@ PAGES = [  # key, menu label, folder ('' = home), template
     ('working-papers', 'Working Papers', 'working-papers/', 'working_papers.html'),
     ('publications', 'Publications', 'publications/', 'publications.html'),
     ('data', 'Data', 'data/', 'data.html'),
+    ('projects', 'Projects', 'projects/', 'projects.html'),
     ('cv', 'CV', 'cv/', 'cv.html'),
 ]
 menu = [(k, lab, path) for k, lab, path, _ in PAGES]

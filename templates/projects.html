@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="page-title">Projects</h1>
+{% if d.projects_intro %}<p class="intro">{{ d.projects_intro }}</p>{% endif %}
+<div class="list projects">
+  {% for x in d.projects %}
+  <article class="project">
+    <h2>{{ x.title }}</h2>
+    {% if x.subtitle %}<p class="venue">{{ x.subtitle }}</p>{% endif %}
+    <p class="desc">{{ x.description }}</p>
+    {% if x.people %}<dl class="people">
+      {% for g in x.people %}<dt>{{ g.role }}</dt><dd>{{ g.names | join('; ') }}</dd>{% endfor %}
+    </dl>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

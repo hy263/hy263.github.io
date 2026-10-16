@@ -147,8 +147,19 @@ h2 { font: 600 12.5px/1 var(--sans); text-transform: uppercase; letter-spacing: 
   .home-id { padding-bottom: 24px; margin-bottom: 28px; border-bottom: 1px solid var(--rule); }
   .profiles { display: flex; flex-wrap: wrap; gap: 4px 18px; border-top: 0; padding-top: 0; margin-top: 14px; }
   .bar { padding-block: 14px 10px; }
-  .menu { gap: 6px 16px; }
-  .menu a { font-size: 14px; }
+  .menu { gap: 6px 16px; flex-wrap: nowrap; overflow-x: auto; max-width: 100%; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .menu::-webkit-scrollbar { display: none; }
+  .menu a { font-size: 14px; white-space: nowrap; flex: none; }
   h1 { font-size: 28px; }
   .page-title { font-size: 28px; }
 }
+
+/* projects */
+.projects { max-width: 760px; }
+.project { padding: 0 0 32px; margin: 0 0 32px; border-bottom: 1px solid var(--rule); }
+.project:last-child { border-bottom: 0; }
+.project .venue { margin: 0 0 12px; }
+.people { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 16px; margin: 14px 0 0; font-size: 15px; }
+.people dt { color: var(--muted); }
+.people dd { margin: 0; color: var(--text); }
+@media (max-width: 520px) { .people { grid-template-columns: 1fr; } .people dd { margin-bottom: 8px; } }
