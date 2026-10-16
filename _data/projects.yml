@@ -1,6 +1,49 @@
 # Projects page. People: names and roles only.
 intro: Research projects and groups I lead or help run.
 projects:
+- title: Sogang Spatial Economics & AI Lab
+  subtitle: A small lab at Sogang University
+  description: >-
+    The lab works at the intersection of geospatial data, economics and machine learning. We build
+    new data from historical maps, archival records and satellite images, and use them to study
+    Korea's development.
+  people:
+  - role: Lab head
+    names: [Hyunjoo Yang]
+  - role: Research associate
+    names: [Sangjin Lee (PhD)]
+  - role: Lab coordinator
+    names: [Inhwan Park (PhD student)]
+  # partner institutions removed 2026-10-16 for now: Yale Center for Geospatial Solutions, Bank of Korea, S&E Company
+  # other members hidden 2026-10-16 until they confirm names and consent (lab head, research associate and coordinator shown above)
+  people_pending:
+  - role: Director
+    names: [Hyunjoo Yang]
+  - role: Research associate
+    names: [Sangjin Lee (PhD)]
+  - role: Lab coordinator
+    names: [Inhwan Park (PhD student)]
+  - role: PhD students
+    names: [Jeongim Han]
+  - role: Master's students
+    names: [Yoorim Son, Jaehoon Jeong, Hyunyoung Kim, Seohee Jang]
+  - role: Undergraduate research assistant
+    names: [Dahye Kim]
+- title: Research Center for Big Data on Korean Economy
+  subtitle: College of Economics, Sogang University
+  description: >-
+    The center was founded in March 2025 under a memorandum of understanding between the College of
+    Economics at Sogang University and the Department of Economics at Yale University. It hosts
+    restricted-access Korean microdata on secure servers and supports research that uses these data,
+    including joint work with researchers at Yale and Brown on household debt and on fertility.
+    Access to the data is by application, reviewed for confidentiality and research relevance.
+  people:
+  - role: Director
+    names: [Jungsoo Park (Sogang University)]
+  - role: Co-directors
+    names: [Costas Arkolakis (Yale University), Hyunjoo Yang (Sogang University)]
+  - role: Head of research
+    names: [Jun Hee Kwak (Sogang University)]
 - title: 'Institutional Design for an Inclusive Energy Transition'
   subtitle: Social Science Korea (SSK) Global Agenda Project, National Research Foundation of Korea, 2026–2030
   description: >-
@@ -17,47 +60,3 @@ projects:
   - role: Co-investigators
     names: [Jeasurk Yang (Chonnam National University), Solomon Hsiang (Stanford University),
             Michael Anderson (UC Berkeley), Marco Gonzalez-Navarro (UC Berkeley)]
-- title: Research Center for Big Data on Korean Economy
-  subtitle: College of Economics, Sogang University
-  description: >-
-    The center was founded in March 2025 under a memorandum of understanding between the College of
-    Economics at Sogang University and the Department of Economics at Yale University. It hosts
-    restricted-access Korean microdata on secure servers and supports research that uses these data,
-    including joint work with researchers at Yale and Brown on household debt and on fertility.
-    Access to the data is by application, reviewed for confidentiality and research relevance.
-  people:
-  - role: Director
-    names: [Jungsoo Park (Sogang University)]
-  - role: Co-directors
-    names: [Costas Arkolakis (Yale University), Hyunjoo Yang (Sogang University)]
-  - role: Head of research
-    names: [Jun Hee Kwak (Sogang University)]
-- title: Sogang Spatial Economics & AI Lab
-  subtitle: A small lab at Sogang University
-  description: >-
-    The lab works at the intersection of geospatial data, economics and machine learning. We build
-    new data from historical maps, archival records and satellite images, and use them to study
-    Korea's development.
-  people:
-  - role: Lab head
-    names: [Hyunjoo Yang]
-  - role: Research associate
-    names: [Sangjin Lee (PhD)]
-  - role: Lab coordinator
-    names: [Inhwan Park (PhD student)]
-  - role: Collaborators
-    names: [Yale Center for Geospatial Solutions, Bank of Korea, S&E Company]
-  # other members hidden 2026-10-16 until they confirm names and consent (lab head, research associate and coordinator shown above)
-  people_pending:
-  - role: Director
-    names: [Hyunjoo Yang]
-  - role: Research associate
-    names: [Sangjin Lee (PhD)]
-  - role: Lab coordinator
-    names: [Inhwan Park (PhD student)]
-  - role: PhD students
-    names: [Jeongim Han]
-  - role: Master's students
-    names: [Yoorim Son, Jaehoon Jeong, Hyunyoung Kim, Seohee Jang]
-  - role: Undergraduate research assistant
-    names: [Dahye Kim]
