@@ -23,7 +23,7 @@ PAGES = [  # key, menu label, folder ('' = home), template
     ('working-papers', 'Working Papers', 'working-papers/', 'working_papers.html'),
     ('publications', 'Publications', 'publications/', 'publications.html'),
     ('data', 'Data', 'data/', 'data.html'),
-    # ('projects', 'Projects', 'projects/', 'projects.html'),  # hidden 2026-10-16 until lab members reply
+    ('projects', 'Projects', 'projects/', 'projects.html'),
     ('cv', 'CV', 'cv/', 'cv.html'),
 ]
 menu = [(k, lab, path) for k, lab, path, _ in PAGES]
