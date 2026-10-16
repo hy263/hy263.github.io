@@ -38,6 +38,9 @@ projects:
     The lab works at the intersection of geospatial data, economics and machine learning. We build
     new data from historical maps, archival records and satellite images, and use them to study
     Korea's development.
+  people:
+  - role: Collaborators
+    names: [Yale University, Bank of Korea, S&E Company]
   # members hidden 2026-10-16 until they confirm names and consent; rename back to 'people' to show
   people_pending:
   - role: Director
