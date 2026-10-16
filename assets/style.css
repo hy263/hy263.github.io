@@ -163,3 +163,10 @@ h2 { font: 600 12.5px/1 var(--sans); text-transform: uppercase; letter-spacing: 
 .people dt { color: var(--muted); }
 .people dd { margin: 0; color: var(--text); }
 @media (max-width: 520px) { .people { grid-template-columns: 1fr; } .people dd { margin-bottom: 8px; } }
+
+/* data and projects: running text matches the home page */
+.dataset .desc, .project .desc { font-size: 16px; line-height: 1.65; color: var(--text); margin: 0 0 12px; }
+.dataset .cite { font-size: 15px; color: var(--text); }
+.project .venue { font-size: 15px; color: var(--muted); }
+.people { font-size: 16px; }
+.intro { color: var(--text); }
