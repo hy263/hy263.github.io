@@ -14,7 +14,8 @@ projects:
     names: [Sangjin Lee (PhD)]
   - role: Lab coordinator
     names: [Inhwan Park (PhD student)]
-  # partner institutions removed 2026-10-16 for now: Yale Center for Geospatial Solutions, Bank of Korea, S&E Company
+  - role: Partner institutions
+    names: [Yale Center for Geospatial Solutions, Bank of Korea, S&E Company]
   # other members hidden 2026-10-16 until they confirm names and consent (lab head, research associate and coordinator shown above)
   people_pending:
   - role: Director
