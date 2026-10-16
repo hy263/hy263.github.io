@@ -39,9 +39,15 @@ projects:
     new data from historical maps, archival records and satellite images, and use them to study
     Korea's development.
   people:
+  - role: Lab head
+    names: [Hyunjoo Yang]
+  - role: Research associate
+    names: [Sangjin Lee (PhD)]
+  - role: Lab coordinator
+    names: [Inhwan Park (PhD student)]
   - role: Collaborators
     names: [Yale University, Bank of Korea, S&E Company]
-  # members hidden 2026-10-16 until they confirm names and consent; rename back to 'people' to show
+  # other members hidden 2026-10-16 until they confirm names and consent (lab head, research associate and coordinator shown above)
   people_pending:
   - role: Director
     names: [Hyunjoo Yang]
