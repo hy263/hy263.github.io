@@ -61,3 +61,5 @@ projects:
   - role: Co-investigators
     names: [Michael Anderson (UC Berkeley), Marco Gonzalez-Navarro (UC Berkeley),
             Solomon Hsiang (Stanford University), Jeasurk Yang (Chonnam National University)]
+  - role: Affiliated researcher
+    names: [Jaecheol Lee (Sogang University)]
