@@ -14,9 +14,11 @@ projects:
     names: [Sangjin Lee (PhD)]
   - role: Lab coordinator
     names: [Inhwan Park (PhD student)]
+  - role: Master's students
+    names: [Jaihoon Chung]
   - role: Partner institutions
     names: [Bank of Korea, S&E Company]  # Yale Center for Geospatial Solutions removed 2026-10-16 for now
-  # other members hidden 2026-10-16 until they confirm names and consent (lab head, research associate and coordinator shown above)
+  # pending list: members shown above have confirmed (Sangjin Lee, Inhwan Park 10-16/17; Jaihoon Chung 10-17). Others await replies.
   people_pending:
   - role: Director
     names: [Hyunjoo Yang]
@@ -27,7 +29,7 @@ projects:
   - role: PhD students
     names: [Jeongim Han]
   - role: Master's students
-    names: [Yoorim Son, Jaehoon Jeong, Hyunyoung Kim, Seohee Jang]
+    names: [Yoorim Son, Jaihoon Chung, Hyunyoung Kim, Seohee Jang]
   - role: Undergraduate research assistant
     names: [Dahye Kim]
 - title: Research Center for Big Data on Korean Economy
