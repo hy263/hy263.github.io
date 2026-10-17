@@ -15,10 +15,12 @@ projects:
   - role: Lab coordinator
     names: [Inhwan Park (PhD student)]
   - role: Master's students
-    names: [Jaihoon Chung]
+    names: [Jaihoon Chung, Seohee Jang]
+  - role: Undergraduate research assistant
+    names: [Dahye Kim]
   - role: Partner institutions
     names: [Bank of Korea, S&E Company]  # Yale Center for Geospatial Solutions removed 2026-10-16 for now
-  # pending list: members shown above have confirmed (Sangjin Lee, Inhwan Park 10-16/17; Jaihoon Chung 10-17). Others await replies.
+  # pending list: members shown above have confirmed (Sangjin Lee, Inhwan Park, Jaihoon Chung, Dahye Kim, Seohee Jang by 10-17). Awaiting: Jeongim Han, Yoorim Son, Hyunyoung Kim.
   people_pending:
   - role: Director
     names: [Hyunjoo Yang]
@@ -43,8 +45,10 @@ projects:
   people:
   - role: Director
     names: [Jungsoo Park (Sogang University)]
-  - role: Co-directors
-    names: [Costas Arkolakis (Yale University), Hyunjoo Yang (Sogang University)]
+  - role: Co-director
+    names: [Costas Arkolakis (Yale University)]
+  - role: Deputy center director
+    names: [Hyunjoo Yang (Sogang University)]
   - role: Head of research
     names: [Jun Hee Kwak (Sogang University)]
 - title: 'Institutional Design for an Inclusive Energy Transition'
