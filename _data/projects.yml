@@ -16,7 +16,7 @@ projects:
     names: [Inhwan Park (PhD student)]
   - role: Master's students
     names: [Jaihoon Chung, Seohee Jang]
-  - role: Undergraduate research assistant
+  - role: Undergraduate students
     names: [Dahye Kim]
   - role: Partner institutions
     names: [Bank of Korea, S&E Company]  # Yale Center for Geospatial Solutions removed 2026-10-16 for now
@@ -32,7 +32,7 @@ projects:
     names: [Jeongim Han]
   - role: Master's students
     names: [Yoorim Son, Jaihoon Chung, Hyunyoung Kim, Seohee Jang]
-  - role: Undergraduate research assistant
+  - role: Undergraduate students
     names: [Dahye Kim]
 - title: Research Center for Big Data on Korean Economy
   subtitle: College of Economics, Sogang University
