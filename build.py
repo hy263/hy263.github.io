@@ -31,6 +31,8 @@ menu = [(k, lab, path) for k, lab, path, _ in PAGES]
 shutil.rmtree(OUT, ignore_errors=True)
 OUT.mkdir()
 shutil.copytree(ROOT / 'assets', OUT / 'assets')
+if (ROOT / 'static').exists():  # standalone pages (not in the menu), e.g. rides/
+    shutil.copytree(ROOT / 'static', OUT, dirs_exist_ok=True)
 for key, label, path, tpl in PAGES:
     root = '../' * path.count('/')
     html = env.get_template(tpl).render(p=p, d=d, menu=menu, active=key, root=root or './',
