@@ -47,10 +47,8 @@ projects:
   people:
   - role: Director
     names: [Jungsoo Park (Sogang University)]
-  - role: Co-director
-    names: [Costas Arkolakis (Yale University)]
-  - role: Deputy center director
-    names: [Hyunjoo Yang (Sogang University)]
+  - role: Deputy center directors
+    names: [Costas Arkolakis (Yale University), Hyunjoo Yang (Sogang University)]
   - role: Head of research
     names: [Jun Hee Kwak (Sogang University)]
 - title: 'Institutional Design for an Inclusive Energy Transition'
