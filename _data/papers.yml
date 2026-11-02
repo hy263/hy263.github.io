@@ -127,7 +127,18 @@ working_papers:
   authors:
   - Imryoung Jeong
   - Hyunjoo Yang
+  abstract: We introduce a novel machine learning approach to leverage historical and contemporary maps and systematically
+    predict economic statistics. Our simple algorithm extracts meaningful features from the maps based on their color
+    compositions for predictions. We apply our method to grid-level population levels in Sub-Saharan Africa in the 1950s
+    and South Korea in 1930, 1970, and 2015. Our results show that maps can reliably predict population density in the
+    mid-20th century Sub-Saharan Africa using 9,886 map grids (5km by 5 km). Similarly, contemporary South Korean maps
+    can generate robust predictions on income, consumption, employment, population density, and electric consumption.
+    In addition, our method is capable of predicting historical South Korean population growth over a century.
   links:
+  - label: SSRN
+    url: https://ssrn.com/abstract=3994753
+  - label: arXiv
+    url: https://arxiv.org/abs/2112.13850
   - label: Draft
     url: https://docs.google.com/document/d/1Q_uhzpW2MypwOyRcVViZp7o3pDaifaOLEK3L-SDSQCg/edit?usp=sharing
 - title: Land Reform, Entrepreneurship, and Economic Growth in South Korea
