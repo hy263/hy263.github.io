@@ -1,0 +1,15 @@
+# Teaching page. Each material: title, course line, description, links (url relative to the site root or full URL).
+intro: Lecture materials from my courses at Sogang University, free to download.
+materials:
+- title: '좋은 연구의 조건: 원인일까, 우연일까? (What Makes Research Good)'
+  course: Sogang University, Fall 2026 · 머신러닝과 경제분석 (ECOT664) · AI와 빅데이터를 활용한 경제정보처리 (ECO5320)
+  description: >-
+    Interactive lecture slides in Korean, from coin flips to John Snow's cholera study. Download the file and
+    open it in a web browser (Chrome etc.); use the ←/→ keys to move between slides and try the buttons and
+    sliders in the charts.
+  links:
+  - label: Open slides
+    url: assets/teaching/good_research_ko.html
+  - label: Download (HTML, 4 MB)
+    url: assets/teaching/good_research_ko.html
+    download: good_research_ko.html
