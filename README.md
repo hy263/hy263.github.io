@@ -6,6 +6,7 @@ Personal academic website of Hyunjoo Yang: https://hy263.github.io
 - Papers and data sets: edit `_data/papers.yml` (copy an existing entry). On push, GitHub Actions rebuilds and
   publishes the site (about one minute). This also works when editing the file on github.com.
 - Name, bio, links, education: edit `_data/profile.yml`.
+- Teaching materials: edit `_data/teaching.yml` and put the files in `assets/teaching/`.
 - CV: the Working Papers and Publications sections are generated from `_data/papers.yml`
   (`python cv/make_sections.py`); edit the rest in `cv/cv.tex`. Then run `latexmk -pdf cv.tex` in `cv/` and copy
   `cv/cv.pdf` to `assets/cv.pdf`.

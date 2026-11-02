@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="page-title">Teaching</h1>
+{% if d.teaching_intro %}<p class="intro">{{ d.teaching_intro }}</p>{% endif %}
+<div class="list teaching">
+  {% for x in d.teaching %}
+  <article class="paper">
+    <h4 class="ptitle">{{ x.title }}</h4>
+    {% if x.course %}<p class="venue">{{ x.course }}</p>{% endif %}
+    {% if x.description %}<p class="desc">{{ x.description }}</p>{% endif %}
+    <p class="plinks">{% for l in x.links %}<a href="{{ l.url if l.url.startswith('http') else root + l.url }}"{% if l.download %} download="{{ l.download }}"{% endif %}>{{ l.label }}</a>{% endfor %}</p>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}
