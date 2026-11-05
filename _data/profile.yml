@@ -11,6 +11,18 @@ bio: >-
   constructed historical, administrative, spatial, and digital data. His methodology combines applied
   microeconomics with GIS, machine learning, and interdisciplinary collaboration to study institutions,
   political legacies, regional development, and household behavior.
+research:
+  - >-
+    His research builds new data from Korean historical records to study how state violence, land redistribution and
+    local institutions shaped long-run development. He links a century of sources, including colonial land ledgers,
+    topographic maps from the 1910s to the 1990s, village surveys, censuses and administrative registers, at the level of
+    the village, the parcel and the 1 km grid, and develops and validates computer-vision methods to read historical maps
+    at scale.
+  - >-
+    A central goal of his work is to make these data available to other researchers. Current and forthcoming releases
+    include a 1 km grid of households and population for Korea from 1918 to 1990, a georeferenced layer of about 35,000
+    villages from the 1972 New Village survey with 1930 clan composition, and parcel-level records linking colonial land
+    ledgers to the modern cadastre.
 interests: Korean economic history, political economy, spatial economics, applied microeconomics, machine learning, and data construction
 education:
   - PhD in Economics, Brown University (2016)

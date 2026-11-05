@@ -14,6 +14,8 @@
   <div class="home-text">
     <p class="lede">{{ p.tagline }}</p>
     <p>{{ p.bio }}</p>
+    {% if p.research %}<h2>Research</h2>
+    {% for para in p.research %}<p>{{ para }}</p>{% endfor %}{% endif %}
     <h2>Research interests</h2>
     <p>{{ p.interests }}</p>
     <h2>Education</h2>
