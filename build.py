@@ -29,7 +29,8 @@ PAGES = [  # key, menu label, folder ('' = home), template
     ('teaching', 'Teaching', 'teaching/', 'teaching.html'),
     ('cv', 'CV', 'cv/', 'cv.html'),
 ]
-menu = [(k, lab, path) for k, lab, path, _ in PAGES]
+HIDDEN = {'teaching'}  # built and reachable by URL, but not shown in the menu
+menu = [(k, lab, path) for k, lab, path, _ in PAGES if k not in HIDDEN]
 
 shutil.rmtree(OUT, ignore_errors=True)
 OUT.mkdir()
