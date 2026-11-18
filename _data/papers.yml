@@ -108,11 +108,13 @@ working_papers:
   - Dominic Russel
   - Claire Shi
   - Hyunjoo Yang
+  venue: NBER Working Paper No. 36010
+  year: 2026
   links:
+  - label: NBER
+    url: https://www.nber.org/papers/w36010
   - label: SSRN
     url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5761702
-  - label: NBER draft
-    url: https://conference.nber.org/conf_papers/f246418.pdf
   abstract: 'As young adults in advanced economies have become increasingly pessimistic about their economic prospects
     in recent years, gambling-like financial activities have proliferated. We link these trends through a Friedman-Savage
     (1948) motive: when life goals such as homeownership or marriage seem out of reach, individuals turn to financial
